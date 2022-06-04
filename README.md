@@ -1,0 +1,2 @@
+# NYU-CUSP-inCitu-Capstone
+New York City’s current planning process is a jumble of information on the websites of various community boards in different boroughs. There is no unified source of truth that various stakeholders like developers, city planners or concerned citizens can access this information through. Through this project we’d like to create a unified dynamic map for New York City highlighting city planning projects in flight along with citizen comments and concerns on them.
