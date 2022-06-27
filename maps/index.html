@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>NYC Projects</title>
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6/turf.min.js"></script>
+
+</head>
+
+<body>
+  <div id="header"></div>
+  <div id="content">
+    <div id="sidebar">
+      <!-- <div>797 Projects</div> -->
+      <div id="search"><input type="text" name="search" id="searchInput" placeholder="Search Project"></div>
+      <div id="projectsList">
+        <!-- <div class="card">
+          <div class="section">
+            <div class="img"></div>
+            <div class="content">
+              <div class="borough">Manhattan | 4</div>
+              <div class="projectName">859 Lamont Ave</div>
+              <div class="projectType">ZONING APPLICATION | ULURP</div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+     
+    </div>
+    <div id="map">map</div>
+    <div id="right_sidebar">
+      <div class="card">
+        <h3>Overview</h3>
+        <div id="sumProjects">
+          There are 74 projects in the area, with details as follows:
+        </div> 
+      </div>
+      <div class="card">
+        <h4>Source</h4>
+        <div class="bar">
+          <div id="zapBar" class="barItem primary"></div>
+          <div id="housingBar" class="barItem secondary"></div>
+        </div>
+        <div class="legend">
+          <div class="item">
+            <div class="legendColor zapColor"></div>
+            <div class="legendName">Zoning Application</div>
+          </div>
+          <div class="item">
+            <div class="legendColor housingColor"></div>
+            <div class="legendName">Housing Development</div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <h4>Status</h4>
+        <div class="bar">
+          <div id="noticedBar" class="barItem primary"></div>
+          <div id="inpublicreviewBar" class="barItem secondary"></div>
+        </div>
+        <div class="legend">
+          <div class="item">
+            <div class="legendColor zapColor"></div>
+            <div id='noticedLabel' class="legendName">Noticed</div>
+          </div>
+          <div class="item">
+            <div class="legendColor housingColor"></div>
+            <div id='iprLabel' class="legendName">In Public Review</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

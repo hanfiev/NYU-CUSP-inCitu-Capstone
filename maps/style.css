@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#content {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+#map {
+  width: 100%;
+  height: 100vh;
+}
+
+#sidebar {
+  /* background-color: red; */
+  min-width: 360px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#search{
+  display: flex;
+  /* background-color: yellow; */
+  padding: 15px;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  padding: 0px 10px;
+  box-sizing: content-box;
+  border: 0;
+  border-radius: 5px;
+  background-color: #F3F3F4;
+  color: #727272;
+}
+
+#projectsList {
+  /* background-color: blue; */
+  max-height: calc(100vh - 70px);
+  overflow: scroll;
+}
+
+#right_sidebar {
+  min-width: 360px;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.card {
+  background-color: #fff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 7px;
+  outline: none;
+  filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0143771)) drop-shadow(0px 22.3363px 17.869px rgba(0, 0, 0, 0.0119221)) drop-shadow(0px 12.5216px 10.0172px rgba(0, 0, 0, 0.01)) drop-shadow(0px 6.6501px 5.32008px rgba(0, 0, 0, 0.00807786)) drop-shadow(0px 2.76726px 2.21381px rgba(0, 0, 0, 0.00562291));
+}
+
+.card>.section{
+  display: flex;
+}
+
+.card>.section>.img{
+  background-color: grey;
+  min-width: 80px;
+  min-height: 80px;
+  max-width: 80px;
+  max-height: 80px;
+  border-radius: 7px;
+  align-self: center;
+  background: url(https://source.unsplash.com/random/512x512/?house);
+  background-size: 100%;
+  background-position: center center;
+}
+
+.card>.section>.content{
+  /* background-color: grey; */
+  /* width: 100%; */
+  margin-left: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card>.section>.content>.borough{
+ font-size: 9pt;
+ font-weight: 700;
+ color: #8E8E8E;
+}
+
+.card>.section>.content>.projectName{
+  font-family: 'DM Sans';
+  font-size: 12pt;
+  font-weight: 500;
+}
+
+.card>.section>.content>.projectType{
+  font-weight: 700;
+  align-items: flex-start;
+  font-size: 7pt;
+  background-color: rgba(22, 116, 203, 0.3);
+  border-radius: 3px;
+  padding: 6px;
+  color: #1674CB;
+}
+
+.bar{
+  display: flex;
+}
+
+.bar>.barItem{
+  height:15px;
+}
+
+.primary {
+  background-color: #5ECBEE;
+}
+
+.secondary{
+  background-color: #545FDD;
+}
+
+.bar>#zapBar{
+  width: 20%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.bar>#housingBar{
+  width: 80%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.bar>#noticedBar{
+  width: 40%;
+  
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.bar>#inpublicreviewBar{
+  width: 60%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.legend {
+  display: flex;
+  padding: 10px 0px;
+}
+
+.item {
+  display: flex;
+  margin-right: 10px;
+}
+
+.item>.legendColor{
+  /* background-color: red; */
+  min-width: 15px;
+  min-height: 15px;
+  max-width: 15px;
+  max-height: 15px;
+  border-radius: 3px;
+  margin-right: 5px;
+  align-self: center;
+}
+
+.item>.legendName{
+  font-size: 10pt;
+  width: 100%;
+}
+
+.zapColor{
+  background-color: #5ECBEE !important;
+}
+
+.housingColor{
+  background-color: #1674CB !important;
+}
+
+.card>h4{
+  margin: 10px 0px;
+}
+
+.card>h3{
+  margin: 5px 0px;
+}
