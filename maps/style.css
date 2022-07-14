@@ -75,7 +75,7 @@ input {
   max-height: 80px;
   border-radius: 7px;
   align-self: center;
-  background: url(https://source.unsplash.com/random/512x512/?house);
+  background: url(img/placeholder.jpg);
   background-size: 100%;
   background-position: center center;
 }
