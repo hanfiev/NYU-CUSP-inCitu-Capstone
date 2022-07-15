@@ -1,13 +1,20 @@
 body {
   margin: 0;
+  font-family: 'Lexend', sans-serif;
+  font-feature-settings: 'ss01'on;
+  color: #333333;;
+  font-size: 11pt;
 }
 
 #header-link {
   text-align: center;
+  font-size: 10pt;
+  margin: 5px;
 }
 
 nav>a {
   margin: 0 10px;
+  cursor: pointer;
 }
 
 #menu {
@@ -18,6 +25,7 @@ nav>a {
   padding: 0 50px;
   background-color: #FEFEFE;
   border: 1px solid #F1F1F1;
+  font-size: 11pt;
 
 }
 
@@ -45,6 +53,7 @@ a {
   width: 1200px;
   margin: auto;
   gap: 50px;
+  font-size: 11pt;
 }
 
 #project-name {
@@ -61,6 +70,8 @@ a {
 
 #info>.item {
   display: flex;
+  margin: 20px 0px;
+  /* align-items: center; */
 }
 
 #info>.item>.title {
@@ -104,8 +115,10 @@ th {
 }
 
 td {
-text-align: center;
+  text-align: center;
+  padding: 10px;
 }
+
 
 /* sidebar */
 #map {
@@ -115,13 +128,27 @@ text-align: center;
 }
 
 #card {
-  padding: 10px;
+  margin: 20px 0px;
+  padding: 0px 20px;
+  border: 1px solid #F1F1F1;
+  border-radius: 10px;
 }
 
 .card-item {
   margin: 20px 0px;
 }
 
-.card-item > .title{
+.card-item>.title {
   font-weight: 700;
+}
+
+/* hearing card */
+#hearing-card.title{
+
+}
+#hearing-card > .button{
+  border: 1px solid #E7E7E7;
+  border-radius: 6px;
+  padding: 10px;
+  display: inline-block;
 }
