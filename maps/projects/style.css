@@ -4,12 +4,15 @@ body {
   font-feature-settings: 'ss01'on;
   color: #333333;;
   font-size: 11pt;
+  background-color: #F4F6F9;
 }
 
 #header-link {
   text-align: center;
   font-size: 10pt;
-  margin: 5px;
+  padding: 5px;
+  background-color: #5D0E8B;
+  color: #F1F1F1;
 }
 
 nav>a {
@@ -26,11 +29,16 @@ nav>a {
   background-color: #FEFEFE;
   border: 1px solid #F1F1F1;
   font-size: 11pt;
-
+  color: rgba(0, 0, 0, 0.33);
 }
 
-.test {
-  border: 1px solid #F1F1F1;
+nav > .active {
+  color: #5D0E8B;
+}
+
+.submenu {
+  border-bottom: 1px solid #F1F1F1;
+  background-color: #ffffffa9;
 }
 
 #project-nav {
@@ -41,17 +49,29 @@ nav>a {
   height: 40px;
   width: 600px;
   margin: auto;
+  cursor: pointer;
+  color: #3333336d;
+}
 
+#project-nav > .active {
+  border-bottom: #5D0E8B 3px solid;
+  color: #5D0E8B;
+  padding: 0px 5px;
+  box-sizing: border-box;
+  height: 100%;
+  line-height: 40px;
+  cursor: default;
 }
 
 a {
   all: unset;
+  cursor: pointer;
 }
 
 #project-overview {
   display: flex;
   width: 1200px;
-  margin: auto;
+  margin: 20px auto;
   gap: 50px;
   font-size: 11pt;
 }
@@ -60,6 +80,7 @@ a {
   font-weight: 700;
   font-size: 32px;
   margin: 20px 0px;
+  color: #5D0E8B;
 }
 
 #project-overview>#sidebar {
@@ -70,12 +91,16 @@ a {
 
 #info>.item {
   display: flex;
-  margin: 20px 0px;
+  margin: 30px 0px;
   /* align-items: center; */
 }
 
 #info>.item>.title {
   min-width: 100px;
+}
+
+#info>.item>.content {
+  color: #585858;
 }
 
 #bbl>#list {
@@ -93,16 +118,16 @@ a {
 .bbl-item {
   background: rgba(63, 140, 255, 0.14);
   border-radius: 5px;
-  padding: 4px;
-  color: #3F8CFF;
+  padding: 7px 10px;
+  color: #5D0E8B;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .bbl-item.active {
-  background: #3F8CFF;
-  border-radius: 5px;
-  padding: 4px;
+  background: #5D0E8B;
   color: #fff;
+  cursor: default;
 }
 
 /* table */
@@ -123,7 +148,7 @@ td {
 /* sidebar */
 #map {
   height: 300px;
-  background-color: #3F8CFF;
+  background-color: #5D0E8B;
   border-radius: 12px;
 }
 
@@ -132,6 +157,7 @@ td {
   padding: 0px 20px;
   border: 1px solid #F1F1F1;
   border-radius: 10px;
+  background-color: #fff;
 }
 
 .card-item {
@@ -143,12 +169,15 @@ td {
 }
 
 /* hearing card */
-#hearing-card.title{
-
+#hearing-card {
+  padding: 10px;
 }
 #hearing-card > .button{
   border: 1px solid #E7E7E7;
+  background-color: #fff;
+  color: #5D0E8B;
   border-radius: 6px;
   padding: 10px;
   display: inline-block;
+  cursor: pointer;
 }
