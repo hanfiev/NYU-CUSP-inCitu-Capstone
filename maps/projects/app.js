@@ -11,3 +11,54 @@ projection: 'globe' // display the map as a 3D globe
 map.on('style.load', () => {
 map.setFog({}); // Set the default atmosphere style
 });
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+
+function toggleDocuments() {
+  document.getElementById('documents').classList.add("active")
+  document.getElementById('documents-page').style.display = 'flex'
+  document.getElementById('project-overview').style.display = 'none'
+  document.getElementById('overview').classList.remove("active")
+}
+
+function toggleOverview() {
+  document.getElementById('documents').classList.remove("active")
+  document.getElementById('documents-page').style.display = 'none'
+  document.getElementById('project-overview').style.display = 'flex'
+  document.getElementById('overview').classList.add("active")
+}
+
+function togglePDF(e){
+  document.getElementById('pdf-iframe').src = 'http://www.africau.edu/images/default/sample.pdf'
+  let p = document.getElementsByTagName("p")
+  for (i = 0; i < p.length; i++) {
+      p[i].classList.remove("active");
+  }
+  e.classList.toggle("active");
+}
+
+var p = document.getElementsByTagName("p")
+var i;
+
+for (i = 0; i < p.length; i++) {
+  p[i].addEventListener("click", function() {
+    document.getElementById('pdf-iframe').src = 'http://www.africau.edu/images/default/sample.pdf'
+    for (i = 0; i < p.length; i++) {
+      p[i].classList.remove("active");
+  }
+  this.classList.toggle("active");
+  });
+}

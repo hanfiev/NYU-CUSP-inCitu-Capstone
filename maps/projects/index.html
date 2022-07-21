@@ -17,25 +17,68 @@
 
 <body>
   <header>
-    <div id="header-link"><a href="https://cusp.nyu.edu/2022-capstone-projects/#:~:text=Democratizing%20New%20York%20City%E2%80%99s%20Urban%20Development%20Processes">An NYU CUSP 2022 Capstone Project</a> </div>
+    <div id="header-link"><a
+        href="https://cusp.nyu.edu/2022-capstone-projects/#:~:text=Democratizing%20New%20York%20City%E2%80%99s%20Urban%20Development%20Processes">An
+        NYU CUSP 2022 Capstone Project</a> </div>
     <div id="menu">
       <div id="logo"><img src="img/logo.png" height="35px"></div>
       <nav>
-        <a class="active" href="/html/">City Projects</a>
-        <a href="/css/">Hearing Agenda</a>
-        <a href="/js/">User Guide</a>
-        <a href="/python/">About</a>
+        <a class="item active" href="/html/">City Projects</a>
+        <a class="item" href="/css/">Hearing Agenda</a>
+        <a class="item" href="/js/">User Guide</a>
+        <a class="item" href="/python/">About</a>
       </nav>
     </div>
   </header>
   <div class="submenu">
     <div id="project-nav">
-      <div id="overview"  class="active">Project Overview</div>
-      <div id="documents">Documents</div>
+      <div class="subnavitem active" id="overview" onclick="toggleOverview()" >Project Overview</div>
+      <div class="subnavitem" id="documents" onclick="toggleDocuments()">Documents</div>
     </div>
   </div>
+  <div id="documents-page" style="display: none">
+    <div id="document-browser">
+      <div id="search-bar">
+        <input type="text" name="search" id="searchFiles" placeholder="Search Documents">
+      </div>
+      <div id="files">
+        <div class="files-card">
+          <button class="accordion">Draft Scope of Work v1</button>
+          <div class="panel">
+            <p class="active" onclick="togglePDF(this)">Halletts North_EAS_2021.02.10.pdf</p>
+            <p onclick="togglePDF(this)">Halletts North_Draft Scope of Work.pdf</p>
+            <p onclick="togglePDF(this)">Halletts North_EAS_2021.02.10.pdf</p>
+          </div>
 
+          <button class="accordion">Draft Scope of Work v2</button>
+          <div class="panel">
+            <p>Halletts North_Draft Scope of Work.pdf</p>
+            <p>Halletts North_EAS_2021.02.10.pdf</p>
+            <p>Halletts North_Draft Scope of Work.pdf</p>
+            <p>Halletts North_EAS_2021.02.10.pdf</p>
+            <p>Halletts North_Draft Scope of Work.pdf</p>
+            <p>Halletts North_EAS_2021.02.10.pdf</p>
+            <p>Halletts North_Draft Scope of Work.pdf</p>
+            <p>Halletts North_EAS_2021.02.10.pdf</p>
+            <p>Halletts North_Draft Scope of Work.pdf</p>
+            <p>Halletts North_EAS_2021.02.10.pdf</p>
+          </div>
+
+          <button class="accordion">Draft Scope of Work v3</button>
+          <div class="panel">
+            <p>Halletts North_Draft Scope of Work.pdf</p>
+            <p>Halletts North_EAS_2021.02.10.pdf</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <iframe id="pdf-iframe" src='https://pdfjs-express.s3-us-west-2.amazonaws.com/docs/choosing-a-pdf-viewer.pdf'>
+      <p>This browser does not support PDF!</p>
+    </iframe>
+
+  </div>
   <div id="project-overview">
+
     <div id="main">
       <div id="project-name">
         Halletts North
@@ -173,7 +216,8 @@
       </div>
       <div id="hearing-card">
         <div class="title">Public Hearing</div> <br>
-        <div class="content">Next meeting will be held on 14 July 2022. All electronic comments submitted through CPC Comments form will be accepted until 11:59 PM, the week before the date of vote.</div> <br>
+        <div class="content">Next meeting will be held on 14 July 2022. All electronic comments submitted through CPC
+          Comments form will be accepted until 11:59 PM, the week before the date of vote.</div> <br>
         <div class="button">
           <img src="img/feedback.svg"> Submit Feedback
         </div>

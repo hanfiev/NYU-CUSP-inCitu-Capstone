@@ -1,0 +1,2403 @@
+{
+  'data': {
+    'attributes': {
+      'applicantteam': [{
+          'name': 'Astoria Owners LLC',
+          'role': 'Primary Applicant'
+        },
+        {
+          'name': 'Mitchell Korbey',
+          'role': 'Primary Contact'
+        }
+      ],
+      'bbl-featurecollection': {
+        'features': [{
+          'geometry': {
+            'coordinates': [
+              [
+                [
+                  [-73.932147,
+                    40.776796
+                  ],
+                  [-73.932473, 40.776193],
+                  [-73.932969, 40.776348],
+                  [-73.933415, 40.776487],
+                  [-73.932601, 40.777979],
+                  [-73.93179, 40.777823],
+                  [-73.931686, 40.777764],
+                  [-73.931683, 40.777762],
+                  [-73.931656, 40.77771],
+                  [-73.931654, 40.777706],
+                  [-73.932147, 40.776796]
+                ]
+              ]
+            ],
+            'type': 'MultiPolygon'
+          },
+          'properties': {},
+          'type': 'Feature'
+        }],
+        'type': 'FeatureCollection'
+      },
+      'bbls': ['4009110001', '4009110049'],
+      'dcp-additionalpublicinformation': None,
+      'dcp-applicability': None,
+      'dcp-applicant-customer-value': 'Astoria Owners LLC',
+      'dcp-applicantadministrator-customer-value': 'Mitchell Korbey',
+      'dcp-applicanttype': 717170002,
+      'dcp-borough': 'Queens',
+      'dcp-bsanumber': None,
+      'dcp-ceqrnumber': '21DCP138Q',
+      'dcp-ceqrtype': 'Type I',
+      'dcp-certifiedreferred': '2022-03-28T04:00:00.000Z',
+      'dcp-femafloodzonea': True,
+      'dcp-femafloodzoneshadedx': True,
+      'dcp-hiddenprojectmetrictarget': 717170004,
+      'dcp-lastmilestonedate': '2022-06-08T18:57:02.000Z',
+      'dcp-lpcnumber': None,
+      'dcp-name': '2018Q0491',
+      'dcp-noticeddate': '2021-12-02T00:00:06.000Z',
+      'dcp-nydospermitnumber': None,
+      'dcp-projectbrief': 'A private application by Astoria Owners LLC to pursue a ZM from M1-1 to R7-3/C2-4, a ZR to Appendix F to map an MIH area, a ZS pursuant to ZR 62-837(a) to waive height, setback, and tower regulations, a ZA to modify the WPAA and allow for phased development of the open space, a ZC pursuant to ZR 62-81, and an amendment to the City Map to demap a portion of 3rd St to facilitate a 987,000sf mixed use development with 1,400 units and 42,208sf of open space at 3-15 26th Ave in Astoria, CD 1, Queens.',
+      'dcp-projectcompleted': None,
+      'dcp-projectid': 'bdb752ec-806d-e811-8136-1458d04d95c0',
+      'dcp-projectname': 'Halletts North',
+      'dcp-publicstatus': 'In Public Review',
+      'dcp-sischoolseat': False,
+      'dcp-sisubdivision': False,
+      'dcp-ulurp-nonulurp': 'ULURP',
+      'dcp-validatedcommunitydistricts': 'Q01',
+      'dcp-wrpnumber': None,
+      'keywords': [],
+      'video-links': []
+    },
+    'id': '2018Q0491',
+    'relationships': {
+      'actions': {
+        'data': [{
+            'id': '80c54fc6-ac8e-ec11-8d20-001dd804920d',
+            'type': 'actions'
+          },
+          {
+            'id': '221ced3f-bea6-eb11-b1ac-001dd804ad8f',
+            'type': 'actions'
+          },
+          {
+            'id': '7844e213-4fa9-ec11-b3fe-001dd804d7fa',
+            'type': 'actions'
+          },
+          {
+            'id': 'b0db45fd-d209-ec11-94ef-001dd830537d',
+            'type': 'actions'
+          },
+          {
+            'id': 'b8e68e2b-e699-ea11-a811-001dd8309c75',
+            'type': 'actions'
+          },
+          {
+            'id': '1ca8dd43-e699-ea11-a811-001dd8309c75',
+            'type': 'actions'
+          },
+          {
+            'id': 'd199e273-e699-ea11-a811-001dd8309c75',
+            'type': 'actions'
+          },
+          {
+            'id': '9a76c88b-e699-ea11-a811-001dd8309c75',
+            'type': 'actions'
+          }
+        ]
+      },
+      'artifacts': {
+        'data': [{
+            'id': '1fe4372a-1376-eb11-a812-001dd801c33f',
+            'type': 'artifacts'
+          },
+          {
+            'id': 'e40b805c-1376-eb11-a812-001dd801c33f',
+            'type': 'artifacts'
+          },
+          {
+            'id': '1a467caa-c9ae-ec11-983e-001dd8049101',
+            'type': 'artifacts'
+          },
+          {
+            'id': '54273046-38b4-ec11-983e-001dd804d45f',
+            'type': 'artifacts'
+          },
+          {
+            'id': '0cf17047-5eac-ec11-b3fe-001dd804d73e',
+            'type': 'artifacts'
+          },
+          {
+            'id': '06a7908c-5eac-ec11-b3fe-001dd804d73e',
+            'type': 'artifacts'
+          },
+          {
+            'id': 'f83a5a6d-5fac-ec11-b3fe-001dd804d73e',
+            'type': 'artifacts'
+          },
+          {
+            'id': 'c827f2b1-5fac-ec11-b3fe-001dd804d73e',
+            'type': 'artifacts'
+          },
+          {
+            'id': 'b23fbcf8-8763-ec11-8f8e-001dd8050ca5',
+            'type': 'artifacts'
+          },
+          {
+            'id': '2b94e679-7d70-eb11-a812-001dd83056b5',
+            'type': 'artifacts'
+          },
+          {
+            'id': '153e49e2-02d2-ec11-a7b4-001dd830a86a',
+            'type': 'artifacts'
+          }
+        ]
+      },
+      'dispositions': {
+        'data': [{
+            'id': 'b0667a21-4fa9-ec11-b400-001dd804de50',
+            'type': 'dispositions'
+          },
+          {
+            'id': 'e6667a21-4fa9-ec11-b400-001dd804de50',
+            'type': 'dispositions'
+          },
+          {
+            'id': '5452d4a3-675f-ec11-8f8e-001dd8050806',
+            'type': 'dispositions'
+          },
+          {
+            'id': '15e8daa9-675f-ec11-8f8e-001dd8050806',
+            'type': 'dispositions'
+          },
+          {
+            'id': '21e8daa9-675f-ec11-8f8e-001dd8050806',
+            'type': 'dispositions'
+          },
+          {
+            'id': '2ae8daa9-675f-ec11-8f8e-001dd8050806',
+            'type': 'dispositions'
+          },
+          {
+            'id': '32e8daa9-675f-ec11-8f8e-001dd8050806',
+            'type': 'dispositions'
+          },
+          {
+            'id': '38e8daa9-675f-ec11-8f8e-001dd8050806',
+            'type': 'dispositions'
+          },
+          {
+            'id': '3fe8daa9-675f-ec11-8f8e-001dd8050806',
+            'type': 'dispositions'
+          },
+          {
+            'id': '3952e3b5-675f-ec11-8f8e-001dd8050806',
+            'type': 'dispositions'
+          },
+          {
+            'id': 'ea99dbbb-675f-ec11-8f8e-001dd8050806',
+            'type': 'dispositions'
+          },
+          {
+            'id': '019adbbb-675f-ec11-8f8e-001dd8050806',
+            'type': 'dispositions'
+          },
+          {
+            'id': '109adbbb-675f-ec11-8f8e-001dd8050806',
+            'type': 'dispositions'
+          },
+          {
+            'id': '279adbbb-675f-ec11-8f8e-001dd8050806',
+            'type': 'dispositions'
+          },
+          {
+            'id': '479adbbb-675f-ec11-8f8e-001dd8050806',
+            'type': 'dispositions'
+          },
+          {
+            'id': '519adbbb-675f-ec11-8f8e-001dd8050806',
+            'type': 'dispositions'
+          }
+        ]
+      },
+      'milestones': {
+        'data': [{
+            'id': '264c8e7f-18aa-ec11-b400-001dd804d995',
+            'type': 'milestones'
+          },
+          {
+            'id': '70b84fd1-45a6-ec11-b400-001dd804fa1d',
+            'type': 'milestones'
+          },
+          {
+            'id': '7b212717-34f7-e911-a999-001dd830812f',
+            'type': 'milestones'
+          },
+          {
+            'id': 'a03fc7b6-579e-ec11-b400-001dd8308efc',
+            'type': 'milestones'
+          },
+          {
+            'id': '84212717-34f7-e911-a999-001dd830812f',
+            'type': 'milestones'
+          },
+          {
+            'id': '2eb94fd1-45a6-ec11-b400-001dd804fa1d',
+            'type': 'milestones'
+          },
+          {
+            'id': '69fb8f0b-f09e-ec11-b3fe-001dd8050da2',
+            'type': 'milestones'
+          },
+          {
+            'id': 'cb212717-34f7-e911-a999-001dd830812f',
+            'type': 'milestones'
+          },
+          {
+            'id': '64809069-3923-ea11-a9a3-001dd8308047',
+            'type': 'milestones'
+          },
+          {
+            'id': '31809069-3923-ea11-a9a3-001dd8308047',
+            'type': 'milestones'
+          },
+          {
+            'id': '217f9069-3923-ea11-a9a3-001dd8308047',
+            'type': 'milestones'
+          },
+          {
+            'id': '677f9069-3923-ea11-a9a3-001dd8308047',
+            'type': 'milestones'
+          },
+          {
+            'id': '8c7e9069-3923-ea11-a9a3-001dd8308047',
+            'type': 'milestones'
+          },
+          {
+            'id': 'ac7e9069-3923-ea11-a9a3-001dd8308047',
+            'type': 'milestones'
+          },
+          {
+            'id': 'f17f9069-3923-ea11-a9a3-001dd8308047',
+            'type': 'milestones'
+          },
+          {
+            'id': '85b1058b-fc0f-eb11-a812-001dd8309ba3',
+            'type': 'milestones'
+          },
+          {
+            'id': '805c936f-3923-ea11-a9a3-001dd8308047',
+            'type': 'milestones'
+          },
+          {
+            'id': '8a5c936f-3923-ea11-a9a3-001dd8308047',
+            'type': 'milestones'
+          },
+          {
+            'id': '87b1058b-fc0f-eb11-a812-001dd8309ba3',
+            'type': 'milestones'
+          },
+          {
+            'id': 'd65c936f-3923-ea11-a9a3-001dd8308047',
+            'type': 'milestones'
+          },
+          {
+            'id': '89b1058b-fc0f-eb11-a812-001dd8309ba3',
+            'type': 'milestones'
+          },
+          {
+            'id': 'f15c936f-3923-ea11-a9a3-001dd8308047',
+            'type': 'milestones'
+          },
+          {
+            'id': 'f75c936f-3923-ea11-a9a3-001dd8308047',
+            'type': 'milestones'
+          },
+          {
+            'id': 'fc5c936f-3923-ea11-a9a3-001dd8308047',
+            'type': 'milestones'
+          },
+          {
+            'id': '025d936f-3923-ea11-a9a3-001dd8308047',
+            'type': 'milestones'
+          }
+        ]
+      },
+      'packages': {
+        'data': [{
+            'id': 'a9ce13df-586a-eb11-a812-001dd801ec47',
+            'type': 'packages'
+          },
+          {
+            'id': '67718ca5-a736-ec11-b6e5-001dd804c652',
+            'type': 'packages'
+          },
+          {
+            'id': '646269d7-45a6-ec11-b400-001dd804fa1d',
+            'type': 'packages'
+          }
+        ]
+      }
+    },
+    'type': 'projects'
+  },
+  'included': [{
+      'attributes': {
+        'dcp-action-value': 'LD',
+        'dcp-ccresolutionnumber': None,
+        'dcp-name': 'Legal Document (NOC, NOR, RD)',
+        'dcp-spabsoluteurl': None,
+        'dcp-ulurpnumber': 'N220164LDQ',
+        'dcp-zoningresolution-value': '62-811',
+        'statecode': 'Active',
+        'statuscode': 'Referred'
+      },
+      'id': '80c54fc6-ac8e-ec11-8d20-001dd804920d',
+      'type': 'actions'
+    },
+    {
+      'attributes': {
+        'dcp-action-value': 'ZA',
+        'dcp-ccresolutionnumber': None,
+        'dcp-name': 'Zoning Authorization',
+        'dcp-spabsoluteurl': None,
+        'dcp-ulurpnumber': 'N220200ZAQ',
+        'dcp-zoningresolution-value': '62-822b',
+        'statecode': 'Active',
+        'statuscode': 'Referred'
+      },
+      'id': '221ced3f-bea6-eb11-b1ac-001dd804ad8f',
+      'type': 'actions'
+    },
+    {
+      'attributes': {
+        'dcp-action-value': 'ZA',
+        'dcp-ccresolutionnumber': None,
+        'dcp-name': 'Zoning Authorization',
+        'dcp-spabsoluteurl': None,
+        'dcp-ulurpnumber': 'N220353ZAQ',
+        'dcp-zoningresolution-value': '62-822a',
+        'statecode': 'Active',
+        'statuscode': 'Referred'
+      },
+      'id': '7844e213-4fa9-ec11-b3fe-001dd804d7fa',
+      'type': 'actions'
+    },
+    {
+      'attributes': {
+        'dcp-action-value': 'ZA',
+        'dcp-ccresolutionnumber': None,
+        'dcp-name': 'Zoning Authorization',
+        'dcp-spabsoluteurl': None,
+        'dcp-ulurpnumber': 'N220202ZAQ',
+        'dcp-zoningresolution-value': '62-822c',
+        'statecode': 'Active',
+        'statuscode': 'Referred'
+      },
+      'id': 'b0db45fd-d209-ec11-94ef-001dd830537d',
+      'type': 'actions'
+    },
+    {
+      'attributes': {
+        'dcp-action-value': 'ZM',
+        'dcp-ccresolutionnumber': None,
+        'dcp-name': 'Zoning Map Amendment',
+        'dcp-spabsoluteurl': None,
+        'dcp-ulurpnumber': 'C220196ZMQ',
+        'dcp-zoningresolution-value': None,
+        'statecode': 'Active',
+        'statuscode': 'Certified'
+      },
+      'id': 'b8e68e2b-e699-ea11-a811-001dd8309c75',
+      'type': 'actions'
+    },
+    {
+      'attributes': {
+        'dcp-action-value': 'ZR',
+        'dcp-ccresolutionnumber': None,
+        'dcp-name': 'Zoning Text Amendment',
+        'dcp-spabsoluteurl': None,
+        'dcp-ulurpnumber': 'N220197ZRQ',
+        'dcp-zoningresolution-value': 'AppendixF',
+        'statecode': 'Active',
+        'statuscode': 'Certified'
+      },
+      'id': '1ca8dd43-e699-ea11-a811-001dd8309c75',
+      'type': 'actions'
+    },
+    {
+      'attributes': {
+        'dcp-action-value': 'ZS',
+        'dcp-ccresolutionnumber': None,
+        'dcp-name': 'Zoning Special Permit',
+        'dcp-spabsoluteurl': None,
+        'dcp-ulurpnumber': 'C220198ZSQ',
+        'dcp-zoningresolution-value': '62-837a',
+        'statecode': 'Active',
+        'statuscode': 'Certified'
+      },
+      'id': 'd199e273-e699-ea11-a811-001dd8309c75',
+      'type': 'actions'
+    },
+    {
+      'attributes': {
+        'dcp-action-value': 'ZC',
+        'dcp-ccresolutionnumber': None,
+        'dcp-name': 'Zoning Certification',
+        'dcp-spabsoluteurl': None,
+        'dcp-ulurpnumber': 'N220199ZCQ',
+        'dcp-zoningresolution-value': '62-811',
+        'statecode': 'Active',
+        'statuscode': 'Referred'
+      },
+      'id': '9a76c88b-e699-ea11-a811-001dd8309c75',
+      'type': 'actions'
+    },
+    {
+      'attributes': {
+        'dcp-actualdurationasoftoday': None,
+        'dcp-actualenddate': '2022-03-25T15:23:33.000Z',
+        'dcp-actualstartdate': '2022-03-22T19:45:40.000Z',
+        'dcp-goalduration': 62,
+        'dcp-milestone': '663beec4-dad0-e711-8116-1458d04e2fb8',
+        'dcp-milestonesequence': 26,
+        'dcp-name': 'ZM - Prepare Filed Land Use Application  ',
+        'dcp-plannedcompletiondate': '2022-05-23T19:45:42.000Z',
+        'dcp-plannedstartdate': '2022-05-03T19:45:42.000Z',
+        'dcp-remainingplanneddays': 0,
+        'dcp-remainingplanneddayscalculated': None,
+        'dcp-reviewmeetingdate': None,
+        'display-name': 'Land Use Application Filed',
+        'milestonename': 'Prepare Filed Land Use Application',
+        'outcome': None,
+        'statuscode': 'Completed'
+      },
+      'id': '264c8e7f-18aa-ec11-b400-001dd804d995',
+      'type': 'milestones'
+    },
+    {
+      'attributes': {
+        'dcp-actualdurationasoftoday': None,
+        'dcp-actualenddate': '2022-03-22T14:05:37.000Z',
+        'dcp-actualstartdate': '2022-03-17T22:59:30.000Z',
+        'dcp-goalduration': 20,
+        'dcp-milestone': '663beec4-dad0-e711-8116-1458d04e2fb8',
+        'dcp-milestonesequence': 26,
+        'dcp-name': 'ZM - Prepare Filed Land Use Application  ',
+        'dcp-plannedcompletiondate': '2022-04-06T22:59:30.000Z',
+        'dcp-plannedstartdate': '2022-04-12T22:59:11.000Z',
+        'dcp-remainingplanneddays': 0,
+        'dcp-remainingplanneddayscalculated': None,
+        'dcp-reviewmeetingdate': None,
+        'display-name': 'Land Use Application Filed',
+        'milestonename': 'Prepare Filed Land Use Application',
+        'outcome': None,
+        'statuscode': 'Completed'
+      },
+      'id': '70b84fd1-45a6-ec11-b400-001dd804fa1d',
+      'type': 'milestones'
+    },
+    {
+      'attributes': {
+        'dcp-actualdurationasoftoday': None,
+        'dcp-actualenddate': '2021-11-09T23:11:07.000Z',
+        'dcp-actualstartdate': '2021-08-30T21:09:49.000Z',
+        'dcp-goalduration': 25,
+        'dcp-milestone': '663beec4-dad0-e711-8116-1458d04e2fb8',
+        'dcp-milestonesequence': 26,
+        'dcp-name': 'ZM - Prepare Filed Land Use Application  ',
+        'dcp-plannedcompletiondate': '2021-09-24T21:09:49.000Z',
+        'dcp-plannedstartdate': '2021-08-30T21:09:24.000Z',
+        'dcp-remainingplanneddays': 0,
+        'dcp-remainingplanneddayscalculated': None,
+        'dcp-reviewmeetingdate': None,
+        'display-name': 'Land Use Application Filed',
+        'milestonename': 'Prepare Filed Land Use Application',
+        'outcome': None,
+        'statuscode': 'Completed'
+      },
+      'id': '7b212717-34f7-e911-a999-001dd830812f',
+      'type': 'milestones'
+    },
+    {
+      'attributes': {
+        'dcp-actualdurationasoftoday': None,
+        'dcp-actualenddate': '2022-03-08T20:46:36.000Z',
+        'dcp-actualstartdate': '2022-02-23T05:00:00.000Z',
+        'dcp-goalduration': 32,
+        'dcp-milestone': '663beec4-dad0-e711-8116-1458d04e2fb8',
+        'dcp-milestonesequence': 26,
+        'dcp-name': 'ZM - Prepare Filed Land Use Application  ',
+        'dcp-plannedcompletiondate': '2022-03-27T05:00:00.000Z',
+        'dcp-plannedstartdate': '2022-03-08T00:38:12.000Z',
+        'dcp-remainingplanneddays': 0,
+        'dcp-remainingplanneddayscalculated': None,
+        'dcp-reviewmeetingdate': None,
+        'display-name': 'Land Use Application Filed',
+        'milestonename': 'Prepare Filed Land Use Application',
+        'outcome': None,
+        'statuscode': 'Completed'
+      },
+      'id': 'a03fc7b6-579e-ec11-b400-001dd8308efc',
+      'type': 'milestones'
+    },
+    {
+      'attributes': {
+        'dcp-actualdurationasoftoday': None,
+        'dcp-actualenddate': '2021-12-17T18:30:56.000Z',
+        'dcp-actualstartdate': '2021-11-17T05:00:15.000Z',
+        'dcp-goalduration': 3,
+        'dcp-milestone': '6a3beec4-dad0-e711-8116-1458d04e2fb8',
+        'dcp-milestonesequence': 28,
+        'dcp-name': 'ZM - Prepare Filed Land Use Fee Payment  ',
+        'dcp-plannedcompletiondate': '2021-11-20T05:00:15.000Z',
+        'dcp-plannedstartdate': '2021-11-12T05:00:34.000Z',
+        'dcp-remainingplanneddays': 0,
+        'dcp-remainingplanneddayscalculated': None,
+        'dcp-reviewmeetingdate': None,
+        'display-name': 'Land Use Fee Paid',
+        'milestonename': 'Prepare Filed Land Use Fee Payment',
+        'outcome': None,
+        'statuscode': 'Completed'
+      },
+      'id': '84212717-34f7-e911-a999-001dd830812f',
+      'type': 'milestones'
+    },
+    {
+      'attributes': {
+        'dcp-actualdurationasoftoday': None,
+        'dcp-actualenddate': '2022-03-22T19:45:17.000Z',
+        'dcp-actualstartdate': '2022-03-22T16:26:57.000Z',
+        'dcp-goalduration': 3,
+        'dcp-milestone': '6c3beec4-dad0-e711-8116-1458d04e2fb8',
+        'dcp-milestonesequence': 29,
+        'dcp-name': 'Ad-hoc - Review Filed Land Use Application',
+        'dcp-plannedcompletiondate': '2022-03-25T04:00:00.000Z',
+        'dcp-plannedstartdate': '2022-03-22T04:00:00.000Z',
+        'dcp-remainingplanneddays': 0,
+        'dcp-remainingplanneddayscalculated': None,
+        'dcp-reviewmeetingdate': None,
+        'display-name': 'Land Use Application Filed',
+        'milestonename': 'Review Filed Land Use Application',
+        'outcome': None,
+        'statuscode': 'Completed'
+      },
+      'id': '2eb94fd1-45a6-ec11-b400-001dd804fa1d',
+      'type': 'milestones'
+    },
+    {
+      'attributes': {
+        'dcp-actualdurationasoftoday': None,
+        'dcp-actualenddate': '2022-03-17T22:59:28.000Z',
+        'dcp-actualstartdate': '2022-03-08T05:00:00.000Z',
+        'dcp-goalduration': None,
+        'dcp-milestone': '6c3beec4-dad0-e711-8116-1458d04e2fb8',
+        'dcp-milestonesequence': 29,
+        'dcp-name': 'Ad-hoc - Review Filed Land Use Application',
+        'dcp-plannedcompletiondate': '2022-03-22T04:00:00.000Z',
+        'dcp-plannedstartdate': '2022-03-08T05:00:00.000Z',
+        'dcp-remainingplanneddays': 0,
+        'dcp-remainingplanneddayscalculated': None,
+        'dcp-reviewmeetingdate': None,
+        'display-name': 'Land Use Application Filed',
+        'milestonename': 'Review Filed Land Use Application',
+        'outcome': None,
+        'statuscode': 'Completed'
+      },
+      'id': '69fb8f0b-f09e-ec11-b3fe-001dd8050da2',
+      'type': 'milestones'
+    },
+    {
+      'attributes': {
+        'dcp-actualdurationasoftoday': None,
+        'dcp-actualenddate': '2022-03-07T20:47:16.000Z',
+        'dcp-actualstartdate': '2021-12-17T18:56:38.000Z',
+        'dcp-goalduration': 77,
+        'dcp-milestone': '6c3beec4-dad0-e711-8116-1458d04e2fb8',
+        'dcp-milestonesequence': 29,
+        'dcp-name': 'ZM - Review Filed Land Use Application  ',
+        'dcp-plannedcompletiondate': '2022-03-04T18:56:38.000Z',
+        'dcp-plannedstartdate': '2021-12-17T18:31:11.000Z',
+        'dcp-remainingplanneddays': 0,
+        'dcp-remainingplanneddayscalculated': None,
+        'dcp-reviewmeetingdate': None,
+        'display-name': 'Land Use Application Filed',
+        'milestonename': 'Review Filed Land Use Application',
+        'outcome': None,
+        'statuscode': 'Completed'
+      },
+      'id': 'cb212717-34f7-e911-a999-001dd830812f',
+      'type': 'milestones'
+    },
+    {
+      'attributes': {
+        'dcp-actualdurationasoftoday': None,
+        'dcp-actualenddate': '2021-02-19T05:00:24.000Z',
+        'dcp-actualstartdate': '2021-02-19T13:08:58.000Z',
+        'dcp-goalduration': 35,
+        'dcp-milestone': '7c3beec4-dad0-e711-8116-1458d04e2fb8',
+        'dcp-milestonesequence': 33,
+        'dcp-name': 'EIS - Review Filed EAS and EIS Draft Scope of Work  ',
+        'dcp-plannedcompletiondate': '2021-03-26T13:08:58.000Z',
+        'dcp-plannedstartdate': '2021-02-08T21:45:24.000Z',
+        'dcp-remainingplanneddays': 0,
+        'dcp-remainingplanneddayscalculated': None,
+        'dcp-reviewmeetingdate': None,
+        'display-description': 'A Draft Scope of Work must be recieved 30 days prior to the Public Scoping Meeting.',
+        'display-name': 'Draft Scope of Work for Environmental Impact Statement Received',
+        'milestonename': 'Review Filed EAS and EIS Draft Scope of Work',
+        'outcome': None,
+        'statuscode': 'Completed'
+      },
+      'id': '64809069-3923-ea11-a9a3-001dd8308047',
+      'type': 'milestones'
+    },
+    {
+      'attributes': {
+        'dcp-actualdurationasoftoday': None,
+        'dcp-actualenddate': '2021-02-19T13:08:01.000Z',
+        'dcp-actualstartdate': '2021-02-11T17:43:10.000Z',
+        'dcp-goalduration': 2,
+        'dcp-milestone': '763beec4-dad0-e711-8116-1458d04e2fb8',
+        'dcp-milestonesequence': 36,
+        'dcp-name': 'EIS - Prepare CEQR Fee Payment  ',
+        'dcp-plannedcompletiondate': '2021-04-28T21:47:48.000Z',
+        'dcp-plannedstartdate': '2021-04-26T21:47:48.000Z',
+        'dcp-remainingplanneddays': 0,
+        'dcp-remainingplanneddayscalculated': None,
+        'dcp-reviewmeetingdate': None,
+        'display-name': 'CEQR Fee Paid',
+        'milestonename': 'Prepare CEQR Fee Payment',
+        'outcome': None,
+        'statuscode': 'Completed'
+      },
+      'id': '31809069-3923-ea11-a9a3-001dd8308047',
+      'type': 'milestones'
+    },
+    {
+      'attributes': {
+        'dcp-actualdurationasoftoday': None,
+        'dcp-actualenddate': '2021-03-22T04:00:20.000Z',
+        'dcp-actualstartdate': '2021-02-19T05:00:54.000Z',
+        'dcp-goalduration': 60,
+        'dcp-milestone': '7e3beec4-dad0-e711-8116-1458d04e2fb8',
+        'dcp-milestonesequence': 38,
+        'dcp-name': 'EIS - DEIS Public Scoping Meeting  ',
+        'dcp-plannedcompletiondate': '2021-04-20T05:00:54.000Z',
+        'dcp-plannedstartdate': '2021-03-27T13:08:58.000Z',
+        'dcp-remainingplanneddays': 0,
+        'dcp-remainingplanneddayscalculated': None,
+        'dcp-reviewmeetingdate': '2021-03-22T04:00:00.000Z',
+        'display-name': 'Environmental Impact Statement Public Scoping Meeting',
+        'milestonename': 'DEIS Public Scoping Meeting',
+        'outcome': None,
+        'statuscode': 'Completed'
+      },
+      'id': '217f9069-3923-ea11-a9a3-001dd8308047',
+      'type': 'milestones'
+    },
+    {
+      'attributes': {
+        'dcp-actualdurationasoftoday': None,
+        'dcp-actualenddate': '2022-03-25T19:24:23.000Z',
+        'dcp-actualstartdate': '2022-03-25T17:02:00.000Z',
+        'dcp-goalduration': 11,
+        'dcp-milestone': '823beec4-dad0-e711-8116-1458d04e2fb8',
+        'dcp-milestonesequence': 40,
+        'dcp-name': 'EIS - Issue Final Scope of Work  ',
+        'dcp-plannedcompletiondate': '2022-04-05T17:02:00.000Z',
+        'dcp-plannedstartdate': '2022-03-25T17:00:09.000Z',
+        'dcp-remainingplanneddays': 0,
+        'dcp-remainingplanneddayscalculated': None,
+        'dcp-reviewmeetingdate': None,
+        'display-name': 'Final Scope of Work for Environmental Impact Statement Issued',
+        'milestonename': 'Issue Final Scope of Work',
+        'outcome': None,
+        'statuscode': 'Completed'
+      },
+      'id': '677f9069-3923-ea11-a9a3-001dd8308047',
+      'type': 'milestones'
+    },
+    {
+      'attributes': {
+        'dcp-actualdurationasoftoday': None,
+        'dcp-actualenddate': '2022-03-25T19:25:17.000Z',
+        'dcp-actualstartdate': '2022-03-25T19:25:09.000Z',
+        'dcp-goalduration': 1,
+        'dcp-milestone': '843beec4-dad0-e711-8116-1458d04e2fb8',
+        'dcp-milestonesequence': 41,
+        'dcp-name': 'EIS - DEIS Notice of Completion Issued  ',
+        'dcp-plannedcompletiondate': '2022-04-07T17:02:00.000Z',
+        'dcp-plannedstartdate': '2022-04-06T17:02:00.000Z',
+        'dcp-remainingplanneddays': 0,
+        'dcp-remainingplanneddayscalculated': None,
+        'dcp-reviewmeetingdate': None,
+        'display-description': 'A Draft Environmental Impact Statement must be completed prior to the City Planning Commission certifying or referring a project for public review.',
+        'display-name': 'Draft Environmental Impact Statement Completed',
+        'milestonename': 'DEIS Notice of Completion Issued',
+        'outcome': None,
+        'statuscode': 'Completed'
+      },
+      'id': '8c7e9069-3923-ea11-a9a3-001dd8308047',
+      'type': 'milestones'
+    },
+    {
+      'attributes': {
+        'dcp-actualdurationasoftoday': None,
+        'dcp-actualenddate': '2022-06-08T18:56:54.000Z',
+        'dcp-actualstartdate': '2022-05-11T15:42:20.000Z',
+        'dcp-goalduration': 34,
+        'dcp-milestone': '863beec4-dad0-e711-8116-1458d04e2fb8',
+        'dcp-milestonesequence': 42,
+        'dcp-name': 'EIS - DEIS Public Hearing Held  ',
+        'dcp-plannedcompletiondate': '2022-06-14T15:42:20.000Z',
+        'dcp-plannedstartdate': '2022-05-18T04:00:55.000Z',
+        'dcp-remainingplanneddays': 0,
+        'dcp-remainingplanneddayscalculated': None,
+        'dcp-reviewmeetingdate': None,
+        'display-name': 'Draft Environmental Impact Statement Public Hearing',
+        'milestonename': 'DEIS Public Hearing Held',
+        'outcome': None,
+        'statuscode': 'Completed'
+      },
+      'id': 'ac7e9069-3923-ea11-a9a3-001dd8308047',
+      'type': 'milestones'
+    },
+    {
+      'attributes': {
+        'dcp-actualdurationasoftoday': 3,
+        'dcp-actualenddate': None,
+        'dcp-actualstartdate': '2022-06-08T18:57:44.000Z',
+        'dcp-goalduration': 41,
+        'dcp-milestone': '883beec4-dad0-e711-8116-1458d04e2fb8',
+        'dcp-milestonesequence': 43,
+        'dcp-name': 'EIS - Prepare and Review FEIS  ',
+        'dcp-plannedcompletiondate': '2022-07-26T15:42:20.000Z',
+        'dcp-plannedstartdate': '2022-06-15T15:42:20.000Z',
+        'dcp-remainingplanneddays': 64,
+        'dcp-remainingplanneddayscalculated': None,
+        'dcp-reviewmeetingdate': None,
+        'display-description': 'A Final Environmental Impact Statement (FEIS) must be completed ten days prior to the City Planning Commission vote.',
+        'display-name': 'Final Environmental Impact Statement Submitted',
+        'milestonename': 'Prepare and Review FEIS',
+        'outcome': None,
+        'statuscode': 'In Progress'
+      },
+      'id': 'f17f9069-3923-ea11-a9a3-001dd8308047',
+      'type': 'milestones'
+    },
+    {
+      'attributes': {
+        'dcp-actualdurationasoftoday': None,
+        'dcp-actualenddate': '2022-04-06T04:00:18.000Z',
+        'dcp-actualstartdate': '2022-03-30T02:07:58.000Z',
+        'dcp-goalduration': 8,
+        'dcp-milestone': '8e3beec4-dad0-e711-8116-1458d04e2fb8',
+        'dcp-milestonesequence': 46,
+        'dcp-name': ' - Review Session - Certified / Referred  ',
+        'dcp-plannedcompletiondate': '2022-04-07T02:07:58.000Z',
+        'dcp-plannedstartdate': '2022-03-16T05:00:38.000Z',
+        'dcp-remainingplanneddays': 0,
+        'dcp-remainingplanneddayscalculated': None,
+        'dcp-reviewmeetingdate': '2022-03-28T04:00:00.000Z',
+        'display-description': 'A "Review Session" milestone signifies that the application has been sent to the City Planning Commission (CPC) and is ready for review. The "Review" milestone represents the period of time (up to 60 days) that the CPC reviews the application before their vote.',
+        'display-name': 'Application Reviewed at City Planning Commission Review Session',
+        'milestonename': 'Review Session - Certified / Referred',
+        'outcome': 'Certified',
+        'statuscode': 'Completed'
+      },
+      'id': '85b1058b-fc0f-eb11-a812-001dd8309ba3',
+      'type': 'milestones'
+    },
+    {
+      'attributes': {
+        'dcp-actualdurationasoftoday': None,
+        'dcp-actualenddate': '2022-04-27T04:00:38.000Z',
+        'dcp-actualstartdate': '2022-04-06T04:00:00.000Z',
+        'dcp-goalduration': 61,
+        'dcp-milestone': '923beec4-dad0-e711-8116-1458d04e2fb8',
+        'dcp-milestonesequence': 48,
+        'dcp-name': 'EIS - Community Board Referral  ',
+        'dcp-plannedcompletiondate': '2022-06-06T04:00:00.000Z',
+        'dcp-plannedstartdate': '2022-04-06T04:00:58.000Z',
+        'dcp-remainingplanneddays': 0,
+        'dcp-remainingplanneddayscalculated': None,
+        'dcp-reviewmeetingdate': None,
+        'display-description': 'The Community Board has 60 days from the time of referral (nine days after certification) to hold a hearing and issue a recommendation.',
+        'display-name': 'Community Board Review',
+        'milestonename': 'Community Board Referral',
+        'outcome': 'Approved',
+        'statuscode': 'Completed'
+      },
+      'id': '805c936f-3923-ea11-a9a3-001dd8308047',
+      'type': 'milestones'
+    },
+    {
+      'attributes': {
+        'dcp-actualdurationasoftoday': None,
+        'dcp-actualenddate': '2022-05-23T20:04:44.000Z',
+        'dcp-actualstartdate': '2022-04-28T04:00:00.000Z',
+        'dcp-goalduration': 29,
+        'dcp-milestone': '943beec4-dad0-e711-8116-1458d04e2fb8',
+        'dcp-milestonesequence': 49,
+        'dcp-name': 'EIS - Borough President Referral  ',
+        'dcp-plannedcompletiondate': '2022-05-27T04:00:00.000Z',
+        'dcp-plannedstartdate': '2022-06-20T00:37:36.000Z',
+        'dcp-remainingplanneddays': 0,
+        'dcp-remainingplanneddayscalculated': None,
+        'dcp-reviewmeetingdate': None,
+        'display-description': 'The Borough President has 30 days after the Community Board issues a recommendation to review the application and issue a recommendation.',
+        'display-name': 'Borough President Review',
+        'milestonename': 'Borough President Referral',
+        'outcome': 'Conditional Favorable',
+        'statuscode': 'Completed'
+      },
+      'id': '8a5c936f-3923-ea11-a9a3-001dd8308047',
+      'type': 'milestones'
+    },
+    {
+      'attributes': {
+        'dcp-actualdurationasoftoday': 18,
+        'dcp-actualenddate': None,
+        'dcp-actualstartdate': '2022-05-24T00:04:42.000Z',
+        'dcp-goalduration': 5,
+        'dcp-milestone': '9c3beec4-dad0-e711-8116-1458d04e2fb8',
+        'dcp-milestonesequence': 53,
+        'dcp-name': ' - Review Session - Pre-Hearing Review / Post Referral  ',
+        'dcp-plannedcompletiondate': '2022-05-29T00:04:42.000Z',
+        'dcp-plannedstartdate': '2022-05-28T04:00:00.000Z',
+        'dcp-remainingplanneddays': None,
+        'dcp-remainingplanneddayscalculated': None,
+        'dcp-reviewmeetingdate': '2022-06-06T04:00:00.000Z',
+        'display-name': 'Review Session - Pre-Hearing Review / Post Referral',
+        'milestonename': 'Review Session - Pre-Hearing Review / Post Referral',
+        'outcome': None,
+        'statuscode': 'In Progress'
+      },
+      'id': '87b1058b-fc0f-eb11-a812-001dd8309ba3',
+      'type': 'milestones'
+    },
+    {
+      'attributes': {
+        'dcp-actualdurationasoftoday': None,
+        'dcp-actualenddate': None,
+        'dcp-actualstartdate': None,
+        'dcp-goalduration': 2,
+        'dcp-milestone': '9e3beec4-dad0-e711-8116-1458d04e2fb8',
+        'dcp-milestonesequence': 54,
+        'dcp-name': 'EIS - CPC Public Meeting - Public Hearing  ',
+        'dcp-plannedcompletiondate': '2022-06-08T00:29:03.000Z',
+        'dcp-plannedstartdate': '2022-06-06T00:29:03.000Z',
+        'dcp-remainingplanneddays': None,
+        'dcp-remainingplanneddayscalculated': None,
+        'dcp-reviewmeetingdate': '2022-06-08T04:00:00.000Z',
+        'display-description': 'The City Planning Commission has 60 days after the Borough President issues a recommendation to hold a hearing and vote on an application.',
+        'display-name': 'City Planning Commission Review',
+        'milestonename': 'CPC Public Meeting - Public Hearing',
+        'outcome': None,
+        'statuscode': 'Not Started'
+      },
+      'id': 'd65c936f-3923-ea11-a9a3-001dd8308047',
+      'type': 'milestones'
+    },
+    {
+      'attributes': {
+        'dcp-actualdurationasoftoday': None,
+        'dcp-actualenddate': None,
+        'dcp-actualstartdate': None,
+        'dcp-goalduration': 5,
+        'dcp-milestone': 'a23beec4-dad0-e711-8116-1458d04e2fb8',
+        'dcp-milestonesequence': 56,
+        'dcp-name': ' - Review Session - Post Hearing Follow-Up / Future Votes  ',
+        'dcp-plannedcompletiondate': '2022-06-14T00:29:03.000Z',
+        'dcp-plannedstartdate': '2022-06-09T00:29:03.000Z',
+        'dcp-remainingplanneddays': None,
+        'dcp-remainingplanneddayscalculated': None,
+        'dcp-reviewmeetingdate': '2022-06-27T04:00:00.000Z',
+        'display-name': 'Post Hearing Follow-Up / Future Votes',
+        'milestonename': 'Review Session - Post Hearing Follow-Up / Future Votes',
+        'outcome': None,
+        'statuscode': 'Not Started'
+      },
+      'id': '89b1058b-fc0f-eb11-a812-001dd8309ba3',
+      'type': 'milestones'
+    },
+    {
+      'attributes': {
+        'dcp-actualdurationasoftoday': None,
+        'dcp-actualenddate': None,
+        'dcp-actualstartdate': None,
+        'dcp-goalduration': 2,
+        'dcp-milestone': 'a43beec4-dad0-e711-8116-1458d04e2fb8',
+        'dcp-milestonesequence': 57,
+        'dcp-name': 'EIS - CPC Public Meeting - Vote  ',
+        'dcp-plannedcompletiondate': '2022-06-17T00:29:03.000Z',
+        'dcp-plannedstartdate': '2022-06-15T00:29:03.000Z',
+        'dcp-remainingplanneddays': None,
+        'dcp-remainingplanneddayscalculated': None,
+        'dcp-reviewmeetingdate': '2022-06-29T04:00:00.000Z',
+        'display-name': 'City Planning Commission Vote',
+        'milestonename': 'CPC Public Meeting - Vote',
+        'outcome': None,
+        'statuscode': 'Not Started'
+      },
+      'id': 'f15c936f-3923-ea11-a9a3-001dd8308047',
+      'type': 'milestones'
+    },
+    {
+      'attributes': {
+        'dcp-actualdurationasoftoday': None,
+        'dcp-actualenddate': None,
+        'dcp-actualstartdate': None,
+        'dcp-goalduration': 72,
+        'dcp-milestone': 'a63beec4-dad0-e711-8116-1458d04e2fb8',
+        'dcp-milestonesequence': 58,
+        'dcp-name': 'EIS - City Council Review  ',
+        'dcp-plannedcompletiondate': '2022-08-29T00:29:03.000Z',
+        'dcp-plannedstartdate': '2022-06-18T00:29:03.000Z',
+        'dcp-remainingplanneddays': 90,
+        'dcp-remainingplanneddayscalculated': None,
+        'dcp-reviewmeetingdate': None,
+        'display-description': 'The City Council has 50 days from receiving the City Planning Commission report to call up the application, hold a hearing and vote on the application.',
+        'display-name': 'City Council Review',
+        'milestonename': 'City Council Review',
+        'outcome': None,
+        'statuscode': 'Not Started'
+      },
+      'id': 'f75c936f-3923-ea11-a9a3-001dd8308047',
+      'type': 'milestones'
+    },
+    {
+      'attributes': {
+        'dcp-actualdurationasoftoday': None,
+        'dcp-actualenddate': None,
+        'dcp-actualstartdate': None,
+        'dcp-goalduration': 5,
+        'dcp-milestone': 'a83beec4-dad0-e711-8116-1458d04e2fb8',
+        'dcp-milestonesequence': 59,
+        'dcp-name': 'EIS - Mayoral Veto  ',
+        'dcp-plannedcompletiondate': '2022-09-04T00:29:03.000Z',
+        'dcp-plannedstartdate': '2022-08-30T00:29:03.000Z',
+        'dcp-remainingplanneddays': None,
+        'dcp-remainingplanneddayscalculated': None,
+        'dcp-reviewmeetingdate': None,
+        'display-description': 'The Mayor has five days to review the City Councils decision and issue a veto.',
+        'display-name': 'Mayoral Review',
+        'milestonename': 'Mayoral Veto',
+        'outcome': None,
+        'statuscode': 'Not Started'
+      },
+      'id': 'fc5c936f-3923-ea11-a9a3-001dd8308047',
+      'type': 'milestones'
+    },
+    {
+      'attributes': {
+        'dcp-actualdurationasoftoday': None,
+        'dcp-actualenddate': None,
+        'dcp-actualstartdate': None,
+        'dcp-goalduration': 10,
+        'dcp-milestone': 'aa3beec4-dad0-e711-8116-1458d04e2fb8',
+        'dcp-milestonesequence': 60,
+        'dcp-name': 'EIS - Final Letter Sent  ',
+        'dcp-plannedcompletiondate': '2022-09-15T00:29:03.000Z',
+        'dcp-plannedstartdate': '2022-09-05T00:29:03.000Z',
+        'dcp-remainingplanneddays': None,
+        'dcp-remainingplanneddayscalculated': None,
+        'dcp-reviewmeetingdate': None,
+        'display-name': 'Approval Letter Sent to Responsible Agency',
+        'milestonename': 'Final Letter Sent',
+        'outcome': None,
+        'statuscode': 'Not Started'
+      },
+      'id': '025d936f-3923-ea11-a9a3-001dd8308047',
+      'type': 'milestones'
+    },
+    {
+      'attributes': {
+        'dcp-boroughboardrecommendation': None,
+        'dcp-boroughpresidentrecommendation': 'Conditional Favorable',
+        'dcp-communityboardrecommendation': None,
+        'dcp-consideration': None,
+        'dcp-dateofpublichearing': '2022-04-28T15:30:00.000Z',
+        'dcp-dateofvote': None,
+        'dcp-datereceived': '2022-05-23T14:30:41.000Z',
+        'dcp-docketdescription': None,
+        'dcp-ispublichearingrequired': 717170000,
+        'dcp-name': '2018Q0491 - ZA - QN BP  ',
+        'dcp-nameofpersoncompletingthisform': 'ZAP LUP Portal',
+        'dcp-projectaction-value': '7844e213-4fa9-ec11-b3fe-001dd804d7fa',
+        'dcp-publichearinglocation': 'via Zoom (www.queensbp.org/landuse)',
+        'dcp-recommendationsubmittedby-value': 'QN BP',
+        'dcp-representing': 'Borough President',
+        'dcp-totalmembersappointedtotheboard': None,
+        'dcp-visibility': 717170003,
+        'dcp-votelocation': None,
+        'dcp-votingabstainingonrecommendation': None,
+        'dcp-votingagainstrecommendation': None,
+        'dcp-votinginfavorrecommendation': None,
+        'dcp-wasaquorumpresent': True,
+        'documents': [{
+            'name': 'Borough President Recommendation.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_communityboarddisposition/2018Q0491 - ZA - QN BP  _B0667A214FA9EC11B400001DD804DE50/Borough President Recommendation.pdf',
+            'timeCreated': '2022-05-24T03:02:17Z'
+          },
+          {
+            'name': 'QBP Rec ULURP 220206 MMQ Halletts North CD 1-signed.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_communityboarddisposition/2018Q0491 - ZA - QN BP  _B0667A214FA9EC11B400001DD804DE50/QBP Rec ULURP 220206 MMQ Halletts North CD 1-signed.pdf',
+            'timeCreated': '2022-05-23T14:02:14Z'
+          },
+          {
+            'name': 'QBP Rec ULURP 220196 ZMQ Halletts North CD 1 ZRQ ZSQ etc-signed.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_communityboarddisposition/2018Q0491 - ZA - QN BP  _B0667A214FA9EC11B400001DD804DE50/QBP Rec ULURP 220196 ZMQ Halletts North CD 1 ZRQ ZSQ etc-signed.pdf',
+            'timeCreated': '2022-05-23T14:02:15Z'
+          }
+        ],
+        'statecode': 'Inactive',
+        'statuscode': 'Submitted'
+      },
+      'id': 'b0667a21-4fa9-ec11-b400-001dd804de50',
+      'type': 'dispositions'
+    },
+    {
+      'attributes': {
+        'dcp-boroughboardrecommendation': None,
+        'dcp-boroughpresidentrecommendation': None,
+        'dcp-communityboardrecommendation': 'Favorable',
+        'dcp-consideration': "At the April 19, 2022 Public Hearing, CB1, Queens voted on two motions related to the proposed Hallet's North Development. The second motion to approve the eight referenced actions passed with 19 in favor, 14 opposed and 2 not voting for cause.",
+        'dcp-dateofpublichearing': '2022-04-19T22:30:00.000Z',
+        'dcp-dateofvote': '2022-04-19T04:00:00.000Z',
+        'dcp-datereceived': '2022-04-27T22:17:27.000Z',
+        'dcp-docketdescription': None,
+        'dcp-ispublichearingrequired': 717170000,
+        'dcp-name': '2018Q0491 - ZA - QN CB1  ',
+        'dcp-nameofpersoncompletingthisform': 'ZAP LUP Portal',
+        'dcp-projectaction-value': '7844e213-4fa9-ec11-b3fe-001dd804d7fa',
+        'dcp-publichearinglocation': 'Zoom Virtual Meeting ',
+        'dcp-recommendationsubmittedby-value': 'QN CB1',
+        'dcp-representing': 'Community Board',
+        'dcp-totalmembersappointedtotheboard': 35,
+        'dcp-visibility': 717170003,
+        'dcp-votelocation': 'Zoom ',
+        'dcp-votingabstainingonrecommendation': 2,
+        'dcp-votingagainstrecommendation': 14,
+        'dcp-votinginfavorrecommendation': 19,
+        'dcp-wasaquorumpresent': True,
+        'documents': [{
+            'name': '2022 Hallets No 3-15 26 AveDCP.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_communityboarddisposition/2018Q0491 - ZA - QN CB1  _E6667A214FA9EC11B400001DD804DE50/2022 Hallets No 3-15 26 AveDCP.pdf',
+            'timeCreated': '2022-04-27T22:17:10Z'
+          },
+          {
+            'name': 'Community -Borough Board Recommendation.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_communityboarddisposition/2018Q0491 - ZA - QN CB1  _E6667A214FA9EC11B400001DD804DE50/Community -Borough Board Recommendation.pdf',
+            'timeCreated': '2022-04-28T03:01:58Z'
+          }
+        ],
+        'statecode': 'Inactive',
+        'statuscode': 'Submitted'
+      },
+      'id': 'e6667a21-4fa9-ec11-b400-001dd804de50',
+      'type': 'dispositions'
+    },
+    {
+      'attributes': {
+        'dcp-boroughboardrecommendation': None,
+        'dcp-boroughpresidentrecommendation': 'Conditional Favorable',
+        'dcp-communityboardrecommendation': None,
+        'dcp-consideration': None,
+        'dcp-dateofpublichearing': '2022-04-28T15:30:00.000Z',
+        'dcp-dateofvote': None,
+        'dcp-datereceived': '2022-05-23T14:30:41.000Z',
+        'dcp-docketdescription': None,
+        'dcp-ispublichearingrequired': 717170000,
+        'dcp-name': '2018Q0491 - ZA - QN BP  ',
+        'dcp-nameofpersoncompletingthisform': 'ZAP LUP Portal',
+        'dcp-projectaction-value': '221ced3f-bea6-eb11-b1ac-001dd804ad8f',
+        'dcp-publichearinglocation': 'via Zoom (www.queensbp.org/landuse)',
+        'dcp-recommendationsubmittedby-value': 'QN BP',
+        'dcp-representing': 'Borough President',
+        'dcp-totalmembersappointedtotheboard': None,
+        'dcp-visibility': 717170003,
+        'dcp-votelocation': None,
+        'dcp-votingabstainingonrecommendation': None,
+        'dcp-votingagainstrecommendation': None,
+        'dcp-votinginfavorrecommendation': None,
+        'dcp-wasaquorumpresent': True,
+        'documents': [{
+            'name': 'QBP Rec ULURP 220206 MMQ Halletts North CD 1-signed.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_communityboarddisposition/2018Q0491 - ZA - QN BP  _5452D4A3675FEC118F8E001DD8050806/QBP Rec ULURP 220206 MMQ Halletts North CD 1-signed.pdf',
+            'timeCreated': '2022-05-23T14:02:30Z'
+          },
+          {
+            'name': 'Borough President Recommendation.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_communityboarddisposition/2018Q0491 - ZA - QN BP  _5452D4A3675FEC118F8E001DD8050806/Borough President Recommendation.pdf',
+            'timeCreated': '2022-05-24T03:02:20Z'
+          },
+          {
+            'name': 'QBP Rec ULURP 220196 ZMQ Halletts North CD 1 ZRQ ZSQ etc-signed.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_communityboarddisposition/2018Q0491 - ZA - QN BP  _5452D4A3675FEC118F8E001DD8050806/QBP Rec ULURP 220196 ZMQ Halletts North CD 1 ZRQ ZSQ etc-signed.pdf',
+            'timeCreated': '2022-05-23T14:02:20Z'
+          }
+        ],
+        'statecode': 'Inactive',
+        'statuscode': 'Submitted'
+      },
+      'id': '5452d4a3-675f-ec11-8f8e-001dd8050806',
+      'type': 'dispositions'
+    },
+    {
+      'attributes': {
+        'dcp-boroughboardrecommendation': None,
+        'dcp-boroughpresidentrecommendation': None,
+        'dcp-communityboardrecommendation': None,
+        'dcp-consideration': None,
+        'dcp-dateofpublichearing': None,
+        'dcp-dateofvote': None,
+        'dcp-datereceived': None,
+        'dcp-docketdescription': None,
+        'dcp-ispublichearingrequired': None,
+        'dcp-name': '2018Q0491 - MM - QN BP  ',
+        'dcp-nameofpersoncompletingthisform': None,
+        'dcp-projectaction-value': 'ccd3d775-bea6-eb11-b1ac-001dd804ad8f',
+        'dcp-publichearinglocation': None,
+        'dcp-recommendationsubmittedby-value': 'QN BP',
+        'dcp-representing': 'Borough President',
+        'dcp-totalmembersappointedtotheboard': None,
+        'dcp-visibility': None,
+        'dcp-votelocation': None,
+        'dcp-votingabstainingonrecommendation': None,
+        'dcp-votingagainstrecommendation': None,
+        'dcp-votinginfavorrecommendation': None,
+        'dcp-wasaquorumpresent': False,
+        'documents': [],
+        'statecode': 'Inactive',
+        'statuscode': 'Deactivated'
+      },
+      'id': '15e8daa9-675f-ec11-8f8e-001dd8050806',
+      'type': 'dispositions'
+    },
+    {
+      'attributes': {
+        'dcp-boroughboardrecommendation': None,
+        'dcp-boroughpresidentrecommendation': 'Conditional Favorable',
+        'dcp-communityboardrecommendation': None,
+        'dcp-consideration': None,
+        'dcp-dateofpublichearing': '2022-04-28T15:30:00.000Z',
+        'dcp-dateofvote': None,
+        'dcp-datereceived': '2022-05-23T14:30:41.000Z',
+        'dcp-docketdescription': None,
+        'dcp-ispublichearingrequired': 717170000,
+        'dcp-name': '2018Q0491 - ZA - QN BP  ',
+        'dcp-nameofpersoncompletingthisform': 'ZAP LUP Portal',
+        'dcp-projectaction-value': 'b0db45fd-d209-ec11-94ef-001dd830537d',
+        'dcp-publichearinglocation': 'via Zoom (www.queensbp.org/landuse)',
+        'dcp-recommendationsubmittedby-value': 'QN BP',
+        'dcp-representing': 'Borough President',
+        'dcp-totalmembersappointedtotheboard': None,
+        'dcp-visibility': 717170003,
+        'dcp-votelocation': None,
+        'dcp-votingabstainingonrecommendation': None,
+        'dcp-votingagainstrecommendation': None,
+        'dcp-votinginfavorrecommendation': None,
+        'dcp-wasaquorumpresent': True,
+        'documents': [{
+            'name': 'QBP Rec ULURP 220196 ZMQ Halletts North CD 1 ZRQ ZSQ etc-signed.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_communityboarddisposition/2018Q0491 - ZA - QN BP  _21E8DAA9675FEC118F8E001DD8050806/QBP Rec ULURP 220196 ZMQ Halletts North CD 1 ZRQ ZSQ etc-signed.pdf',
+            'timeCreated': '2022-05-23T14:02:34Z'
+          },
+          {
+            'name': 'Borough President Recommendation.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_communityboarddisposition/2018Q0491 - ZA - QN BP  _21E8DAA9675FEC118F8E001DD8050806/Borough President Recommendation.pdf',
+            'timeCreated': '2022-05-24T03:02:24Z'
+          },
+          {
+            'name': 'QBP Rec ULURP 220206 MMQ Halletts North CD 1-signed.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_communityboarddisposition/2018Q0491 - ZA - QN BP  _21E8DAA9675FEC118F8E001DD8050806/QBP Rec ULURP 220206 MMQ Halletts North CD 1-signed.pdf',
+            'timeCreated': '2022-05-23T14:02:34Z'
+          }
+        ],
+        'statecode': 'Inactive',
+        'statuscode': 'Submitted'
+      },
+      'id': '21e8daa9-675f-ec11-8f8e-001dd8050806',
+      'type': 'dispositions'
+    },
+    {
+      'attributes': {
+        'dcp-boroughboardrecommendation': None,
+        'dcp-boroughpresidentrecommendation': 'Conditional Favorable',
+        'dcp-communityboardrecommendation': None,
+        'dcp-consideration': None,
+        'dcp-dateofpublichearing': '2022-04-28T15:30:00.000Z',
+        'dcp-dateofvote': None,
+        'dcp-datereceived': '2022-05-23T14:30:41.000Z',
+        'dcp-docketdescription': 'IN THE MATTER OF an application submitted by Astoria Owners LLC pursuant to Sections 197-c and 201 of the New York City Charter for the amendment of the Zoning Map, Section No. 9a:\n \n1.         changing from an M1-1 District to an R7-3 District property bounded by the northwesterly streetline of the former 3rd Street*, the U.S. Pierhead and Bulkhead Line, a line 280 feet southeasterly of former 3rd Street*, and 26th Avenue; and\n \n2.         establishing within the proposed R7-3 District a C2-4 District bounded by the northwesterly streetline of the former 3rd Street*, the U.S. Pierhead and Bulkhead Line, a line 280 feet southeasterly of former 3rd Street*, and 26th Avenue;\n \nBorough of Queens, Community District 1, as shown on a diagram (for illustrative purposes only) dated March 28, 2022 and subject to the conditions of CEQR Declaration E-671.\n \n*Note: 3rd Street, northeasterly of 26th Avenue, is proposed to be demapped under a concurrent related application for a City Map Change (C 220206 MMQ).',
+        'dcp-ispublichearingrequired': 717170000,
+        'dcp-name': '2018Q0491 - ZM - QN BP  ',
+        'dcp-nameofpersoncompletingthisform': 'ZAP LUP Portal',
+        'dcp-projectaction-value': 'b8e68e2b-e699-ea11-a811-001dd8309c75',
+        'dcp-publichearinglocation': 'via Zoom (www.queensbp.org/landuse)',
+        'dcp-recommendationsubmittedby-value': 'QN BP',
+        'dcp-representing': 'Borough President',
+        'dcp-totalmembersappointedtotheboard': None,
+        'dcp-visibility': 717170003,
+        'dcp-votelocation': None,
+        'dcp-votingabstainingonrecommendation': None,
+        'dcp-votingagainstrecommendation': None,
+        'dcp-votinginfavorrecommendation': None,
+        'dcp-wasaquorumpresent': True,
+        'documents': [{
+            'name': 'Borough President Recommendation.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_communityboarddisposition/2018Q0491 - ZM - QN BP  _2AE8DAA9675FEC118F8E001DD8050806/Borough President Recommendation.pdf',
+            'timeCreated': '2022-05-24T03:02:27Z'
+          },
+          {
+            'name': 'QBP Rec ULURP 220196 ZMQ Halletts North CD 1 ZRQ ZSQ etc-signed.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_communityboarddisposition/2018Q0491 - ZM - QN BP  _2AE8DAA9675FEC118F8E001DD8050806/QBP Rec ULURP 220196 ZMQ Halletts North CD 1 ZRQ ZSQ etc-signed.pdf',
+            'timeCreated': '2022-05-23T14:02:38Z'
+          },
+          {
+            'name': 'QBP Rec ULURP 220206 MMQ Halletts North CD 1-signed.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_communityboarddisposition/2018Q0491 - ZM - QN BP  _2AE8DAA9675FEC118F8E001DD8050806/QBP Rec ULURP 220206 MMQ Halletts North CD 1-signed.pdf',
+            'timeCreated': '2022-05-23T14:02:38Z'
+          }
+        ],
+        'statecode': 'Inactive',
+        'statuscode': 'Submitted'
+      },
+      'id': '2ae8daa9-675f-ec11-8f8e-001dd8050806',
+      'type': 'dispositions'
+    },
+    {
+      'attributes': {
+        'dcp-boroughboardrecommendation': None,
+        'dcp-boroughpresidentrecommendation': 'Conditional Favorable',
+        'dcp-communityboardrecommendation': None,
+        'dcp-consideration': None,
+        'dcp-dateofpublichearing': '2022-04-28T15:30:00.000Z',
+        'dcp-dateofvote': None,
+        'dcp-datereceived': '2022-05-23T14:30:41.000Z',
+        'dcp-docketdescription': None,
+        'dcp-ispublichearingrequired': 717170000,
+        'dcp-name': '2018Q0491 - ZR - QN BP  ',
+        'dcp-nameofpersoncompletingthisform': 'ZAP LUP Portal',
+        'dcp-projectaction-value': '1ca8dd43-e699-ea11-a811-001dd8309c75',
+        'dcp-publichearinglocation': 'via Zoom (www.queensbp.org/landuse)',
+        'dcp-recommendationsubmittedby-value': 'QN BP',
+        'dcp-representing': 'Borough President',
+        'dcp-totalmembersappointedtotheboard': None,
+        'dcp-visibility': 717170003,
+        'dcp-votelocation': None,
+        'dcp-votingabstainingonrecommendation': None,
+        'dcp-votingagainstrecommendation': None,
+        'dcp-votinginfavorrecommendation': None,
+        'dcp-wasaquorumpresent': True,
+        'documents': [{
+            'name': 'QBP Rec ULURP 220206 MMQ Halletts North CD 1-signed.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_communityboarddisposition/2018Q0491 - ZR - QN BP  _32E8DAA9675FEC118F8E001DD8050806/QBP Rec ULURP 220206 MMQ Halletts North CD 1-signed.pdf',
+            'timeCreated': '2022-05-23T14:04:11Z'
+          },
+          {
+            'name': 'QBP Rec ULURP 220196 ZMQ Halletts North CD 1 ZRQ ZSQ etc-signed.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_communityboarddisposition/2018Q0491 - ZR - QN BP  _32E8DAA9675FEC118F8E001DD8050806/QBP Rec ULURP 220196 ZMQ Halletts North CD 1 ZRQ ZSQ etc-signed.pdf',
+            'timeCreated': '2022-05-23T14:04:11Z'
+          },
+          {
+            'name': 'Borough President Recommendation.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_communityboarddisposition/2018Q0491 - ZR - QN BP  _32E8DAA9675FEC118F8E001DD8050806/Borough President Recommendation.pdf',
+            'timeCreated': '2022-05-24T03:02:30Z'
+          }
+        ],
+        'statecode': 'Inactive',
+        'statuscode': 'Submitted'
+      },
+      'id': '32e8daa9-675f-ec11-8f8e-001dd8050806',
+      'type': 'dispositions'
+    },
+    {
+      'attributes': {
+        'dcp-boroughboardrecommendation': None,
+        'dcp-boroughpresidentrecommendation': 'Conditional Favorable',
+        'dcp-communityboardrecommendation': None,
+        'dcp-consideration': None,
+        'dcp-dateofpublichearing': '2022-04-28T15:30:00.000Z',
+        'dcp-dateofvote': None,
+        'dcp-datereceived': '2022-05-23T14:30:41.000Z',
+        'dcp-docketdescription': 'IN THE MATTER OF an application submitted by Astoria Owners LLC pursuant to Sections 197-c and 201 of the New York City Charter for the grant of a special permit pursuant to the Section 62-837(a) of the Zoning Resolution to modify the height and setback, the maximum residential tower size and the maximum width of walls facing the shoreline requirements of Section 62-34 (Height and Setback Regulations on Waterfront Blocks), in connection with a proposed mixed use development, within a general large-scale development, on property generally bounded by the westerly streeline of the former 3rd Street*, the U.S. Pierhead and Bulkhead Line, a line 330 feet southeasterly of the westerly streetline of the former 3rd Street*, a line 228.5 feet northeasterly of 26th Avenue, a line 179 feet southeasterly of the westerly streetline of the former 3rd Street, and 26th Avenue (Block 911, Lot 1, and the demapped portion of 3rd Street*, in an R7-3/C2-4** District.\n \n*Note: 3rd Street, northeasterly of 26th Avenue, is proposed to be demapped under a concurrent related application for a City Map Change (C 220206 MMQ).\n \n**Note: The site is proposed to be rezoned by changing an M1-1 to an R7-3/C2-4 District under a concurrent related application (C 220196 ZMQ).\nPlans for this proposal are on file with the City Planning Commission and may be seen on the Zoning Application Portal at https://zap.planning.nyc.gov/projects/2020M0112, or the Department of City Planning, 120 Broadway, 31st Floor, New York, NY, 10271-0001. ',
+        'dcp-ispublichearingrequired': 717170000,
+        'dcp-name': '2018Q0491 - ZS - QN BP  ',
+        'dcp-nameofpersoncompletingthisform': 'ZAP LUP Portal',
+        'dcp-projectaction-value': 'd199e273-e699-ea11-a811-001dd8309c75',
+        'dcp-publichearinglocation': 'via Zoom (www.queensbp.org/landuse)',
+        'dcp-recommendationsubmittedby-value': 'QN BP',
+        'dcp-representing': 'Borough President',
+        'dcp-totalmembersappointedtotheboard': None,
+        'dcp-visibility': 717170003,
+        'dcp-votelocation': None,
+        'dcp-votingabstainingonrecommendation': None,
+        'dcp-votingagainstrecommendation': None,
+        'dcp-votinginfavorrecommendation': None,
+        'dcp-wasaquorumpresent': True,
+        'documents': [{
+            'name': 'QBP Rec ULURP 220206 MMQ Halletts North CD 1-signed.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_communityboarddisposition/2018Q0491 - ZS - QN BP  _38E8DAA9675FEC118F8E001DD8050806/QBP Rec ULURP 220206 MMQ Halletts North CD 1-signed.pdf',
+            'timeCreated': '2022-05-23T14:04:16Z'
+          },
+          {
+            'name': 'Borough President Recommendation.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_communityboarddisposition/2018Q0491 - ZS - QN BP  _38E8DAA9675FEC118F8E001DD8050806/Borough President Recommendation.pdf',
+            'timeCreated': '2022-05-24T03:02:33Z'
+          },
+          {
+            'name': 'QBP Rec ULURP 220196 ZMQ Halletts North CD 1 ZRQ ZSQ etc-signed.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_communityboarddisposition/2018Q0491 - ZS - QN BP  _38E8DAA9675FEC118F8E001DD8050806/QBP Rec ULURP 220196 ZMQ Halletts North CD 1 ZRQ ZSQ etc-signed.pdf',
+            'timeCreated': '2022-05-23T14:04:16Z'
+          }
+        ],
+        'statecode': 'Inactive',
+        'statuscode': 'Submitted'
+      },
+      'id': '38e8daa9-675f-ec11-8f8e-001dd8050806',
+      'type': 'dispositions'
+    },
+    {
+      'attributes': {
+        'dcp-boroughboardrecommendation': None,
+        'dcp-boroughpresidentrecommendation': 'Conditional Favorable',
+        'dcp-communityboardrecommendation': None,
+        'dcp-consideration': None,
+        'dcp-dateofpublichearing': '2022-04-28T15:30:00.000Z',
+        'dcp-dateofvote': None,
+        'dcp-datereceived': '2022-05-23T14:30:41.000Z',
+        'dcp-docketdescription': None,
+        'dcp-ispublichearingrequired': 717170000,
+        'dcp-name': '2018Q0491 - ZC - QN BP  ',
+        'dcp-nameofpersoncompletingthisform': 'ZAP LUP Portal',
+        'dcp-projectaction-value': '9a76c88b-e699-ea11-a811-001dd8309c75',
+        'dcp-publichearinglocation': 'via Zoom (www.queensbp.org/landuse)',
+        'dcp-recommendationsubmittedby-value': 'QN BP',
+        'dcp-representing': 'Borough President',
+        'dcp-totalmembersappointedtotheboard': None,
+        'dcp-visibility': 717170003,
+        'dcp-votelocation': None,
+        'dcp-votingabstainingonrecommendation': None,
+        'dcp-votingagainstrecommendation': None,
+        'dcp-votinginfavorrecommendation': None,
+        'dcp-wasaquorumpresent': True,
+        'documents': [{
+            'name': 'QBP Rec ULURP 220206 MMQ Halletts North CD 1-signed.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_communityboarddisposition/2018Q0491 - ZC - QN BP  _3FE8DAA9675FEC118F8E001DD8050806/QBP Rec ULURP 220206 MMQ Halletts North CD 1-signed.pdf',
+            'timeCreated': '2022-05-23T14:04:22Z'
+          },
+          {
+            'name': 'Borough President Recommendation.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_communityboarddisposition/2018Q0491 - ZC - QN BP  _3FE8DAA9675FEC118F8E001DD8050806/Borough President Recommendation.pdf',
+            'timeCreated': '2022-05-24T03:02:36Z'
+          },
+          {
+            'name': 'QBP Rec ULURP 220196 ZMQ Halletts North CD 1 ZRQ ZSQ etc-signed.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_communityboarddisposition/2018Q0491 - ZC - QN BP  _3FE8DAA9675FEC118F8E001DD8050806/QBP Rec ULURP 220196 ZMQ Halletts North CD 1 ZRQ ZSQ etc-signed.pdf',
+            'timeCreated': '2022-05-23T14:04:29Z'
+          }
+        ],
+        'statecode': 'Inactive',
+        'statuscode': 'Submitted'
+      },
+      'id': '3fe8daa9-675f-ec11-8f8e-001dd8050806',
+      'type': 'dispositions'
+    },
+    {
+      'attributes': {
+        'dcp-boroughboardrecommendation': None,
+        'dcp-boroughpresidentrecommendation': None,
+        'dcp-communityboardrecommendation': 'Favorable',
+        'dcp-consideration': "At the April 19, 2022 Public Hearing, CB1, Queens voted on two motions related to the proposed Hallet's North Development. The second motion to approve the eight referenced actions passed with 19 in favor, 14 opposed and 2 not voting for cause.",
+        'dcp-dateofpublichearing': '2022-04-19T22:30:00.000Z',
+        'dcp-dateofvote': '2022-04-19T04:00:00.000Z',
+        'dcp-datereceived': '2022-04-27T22:17:27.000Z',
+        'dcp-docketdescription': None,
+        'dcp-ispublichearingrequired': 717170000,
+        'dcp-name': '2018Q0491 - ZA - QN CB1  ',
+        'dcp-nameofpersoncompletingthisform': 'ZAP LUP Portal',
+        'dcp-projectaction-value': '221ced3f-bea6-eb11-b1ac-001dd804ad8f',
+        'dcp-publichearinglocation': 'Zoom Virtual Meeting ',
+        'dcp-recommendationsubmittedby-value': 'QN CB1',
+        'dcp-representing': 'Community Board',
+        'dcp-totalmembersappointedtotheboard': 35,
+        'dcp-visibility': 717170003,
+        'dcp-votelocation': 'Zoom ',
+        'dcp-votingabstainingonrecommendation': 2,
+        'dcp-votingagainstrecommendation': 14,
+        'dcp-votinginfavorrecommendation': 19,
+        'dcp-wasaquorumpresent': True,
+        'documents': [{
+            'name': 'Community -Borough Board Recommendation.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_communityboarddisposition/2018Q0491 - ZA - QN CB1  _3952E3B5675FEC118F8E001DD8050806/Community -Borough Board Recommendation.pdf',
+            'timeCreated': '2022-04-28T03:02:00Z'
+          },
+          {
+            'name': '2022 Hallets No 3-15 26 AveDCP.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_communityboarddisposition/2018Q0491 - ZA - QN CB1  _3952E3B5675FEC118F8E001DD8050806/2022 Hallets No 3-15 26 AveDCP.pdf',
+            'timeCreated': '2022-04-27T22:17:14Z'
+          }
+        ],
+        'statecode': 'Inactive',
+        'statuscode': 'Submitted'
+      },
+      'id': '3952e3b5-675f-ec11-8f8e-001dd8050806',
+      'type': 'dispositions'
+    },
+    {
+      'attributes': {
+        'dcp-boroughboardrecommendation': None,
+        'dcp-boroughpresidentrecommendation': None,
+        'dcp-communityboardrecommendation': None,
+        'dcp-consideration': None,
+        'dcp-dateofpublichearing': None,
+        'dcp-dateofvote': None,
+        'dcp-datereceived': None,
+        'dcp-docketdescription': None,
+        'dcp-ispublichearingrequired': None,
+        'dcp-name': '2018Q0491 - MM - QN CB1  ',
+        'dcp-nameofpersoncompletingthisform': None,
+        'dcp-projectaction-value': 'ccd3d775-bea6-eb11-b1ac-001dd804ad8f',
+        'dcp-publichearinglocation': None,
+        'dcp-recommendationsubmittedby-value': 'QN CB1',
+        'dcp-representing': 'Community Board',
+        'dcp-totalmembersappointedtotheboard': None,
+        'dcp-visibility': None,
+        'dcp-votelocation': None,
+        'dcp-votingabstainingonrecommendation': None,
+        'dcp-votingagainstrecommendation': None,
+        'dcp-votinginfavorrecommendation': None,
+        'dcp-wasaquorumpresent': False,
+        'documents': [],
+        'statecode': 'Inactive',
+        'statuscode': 'Deactivated'
+      },
+      'id': 'ea99dbbb-675f-ec11-8f8e-001dd8050806',
+      'type': 'dispositions'
+    },
+    {
+      'attributes': {
+        'dcp-boroughboardrecommendation': None,
+        'dcp-boroughpresidentrecommendation': None,
+        'dcp-communityboardrecommendation': 'Favorable',
+        'dcp-consideration': "At the April 19, 2022 Public Hearing, CB1, Queens voted on two motions related to the proposed Hallet's North Development. The second motion to approve the eight referenced actions passed with 19 in favor, 14 opposed and 2 not voting for cause.",
+        'dcp-dateofpublichearing': '2022-04-19T22:30:00.000Z',
+        'dcp-dateofvote': '2022-04-19T04:00:00.000Z',
+        'dcp-datereceived': '2022-04-27T22:17:27.000Z',
+        'dcp-docketdescription': None,
+        'dcp-ispublichearingrequired': 717170000,
+        'dcp-name': '2018Q0491 - ZA - QN CB1  ',
+        'dcp-nameofpersoncompletingthisform': 'ZAP LUP Portal',
+        'dcp-projectaction-value': 'b0db45fd-d209-ec11-94ef-001dd830537d',
+        'dcp-publichearinglocation': 'Zoom Virtual Meeting ',
+        'dcp-recommendationsubmittedby-value': 'QN CB1',
+        'dcp-representing': 'Community Board',
+        'dcp-totalmembersappointedtotheboard': 35,
+        'dcp-visibility': 717170003,
+        'dcp-votelocation': 'Zoom ',
+        'dcp-votingabstainingonrecommendation': 2,
+        'dcp-votingagainstrecommendation': 14,
+        'dcp-votinginfavorrecommendation': 19,
+        'dcp-wasaquorumpresent': True,
+        'documents': [{
+            'name': '2022 Hallets No 3-15 26 AveDCP.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_communityboarddisposition/2018Q0491 - ZA - QN CB1  _019ADBBB675FEC118F8E001DD8050806/2022 Hallets No 3-15 26 AveDCP.pdf',
+            'timeCreated': '2022-04-27T22:17:17Z'
+          },
+          {
+            'name': 'Community -Borough Board Recommendation.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_communityboarddisposition/2018Q0491 - ZA - QN CB1  _019ADBBB675FEC118F8E001DD8050806/Community -Borough Board Recommendation.pdf',
+            'timeCreated': '2022-04-28T03:02:03Z'
+          }
+        ],
+        'statecode': 'Inactive',
+        'statuscode': 'Submitted'
+      },
+      'id': '019adbbb-675f-ec11-8f8e-001dd8050806',
+      'type': 'dispositions'
+    },
+    {
+      'attributes': {
+        'dcp-boroughboardrecommendation': None,
+        'dcp-boroughpresidentrecommendation': None,
+        'dcp-communityboardrecommendation': 'Favorable',
+        'dcp-consideration': "At the April 19, 2022 Public Hearing, CB1, Queens voted on two motions related to the proposed Hallet's North Development. The second motion to approve the eight referenced actions passed with 19 in favor, 14 opposed and 2 not voting for cause.",
+        'dcp-dateofpublichearing': '2022-04-19T22:30:00.000Z',
+        'dcp-dateofvote': '2022-04-19T04:00:00.000Z',
+        'dcp-datereceived': '2022-04-27T22:17:27.000Z',
+        'dcp-docketdescription': 'IN THE MATTER OF an application submitted by Astoria Owners LLC pursuant to Sections 197-c and 201 of the New York City Charter for the amendment of the Zoning Map, Section No. 9a:\n \n1.         changing from an M1-1 District to an R7-3 District property bounded by the northwesterly streetline of the former 3rd Street*, the U.S. Pierhead and Bulkhead Line, a line 280 feet southeasterly of former 3rd Street*, and 26th Avenue; and\n \n2.         establishing within the proposed R7-3 District a C2-4 District bounded by the northwesterly streetline of the former 3rd Street*, the U.S. Pierhead and Bulkhead Line, a line 280 feet southeasterly of former 3rd Street*, and 26th Avenue;\n \nBorough of Queens, Community District 1, as shown on a diagram (for illustrative purposes only) dated March 28, 2022 and subject to the conditions of CEQR Declaration E-671.\n \n*Note: 3rd Street, northeasterly of 26th Avenue, is proposed to be demapped under a concurrent related application for a City Map Change (C 220206 MMQ).',
+        'dcp-ispublichearingrequired': 717170000,
+        'dcp-name': '2018Q0491 - ZM - QN CB1  ',
+        'dcp-nameofpersoncompletingthisform': 'ZAP LUP Portal',
+        'dcp-projectaction-value': 'b8e68e2b-e699-ea11-a811-001dd8309c75',
+        'dcp-publichearinglocation': 'Zoom Virtual Meeting ',
+        'dcp-recommendationsubmittedby-value': 'QN CB1',
+        'dcp-representing': 'Community Board',
+        'dcp-totalmembersappointedtotheboard': 35,
+        'dcp-visibility': 717170003,
+        'dcp-votelocation': 'Zoom ',
+        'dcp-votingabstainingonrecommendation': 2,
+        'dcp-votingagainstrecommendation': 14,
+        'dcp-votinginfavorrecommendation': 19,
+        'dcp-wasaquorumpresent': True,
+        'documents': [{
+            'name': 'Community -Borough Board Recommendation.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_communityboarddisposition/2018Q0491 - ZM - QN CB1  _109ADBBB675FEC118F8E001DD8050806/Community -Borough Board Recommendation.pdf',
+            'timeCreated': '2022-04-28T03:02:06Z'
+          },
+          {
+            'name': '2022 Hallets No 3-15 26 AveDCP.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_communityboarddisposition/2018Q0491 - ZM - QN CB1  _109ADBBB675FEC118F8E001DD8050806/2022 Hallets No 3-15 26 AveDCP.pdf',
+            'timeCreated': '2022-04-27T22:17:20Z'
+          }
+        ],
+        'statecode': 'Inactive',
+        'statuscode': 'Submitted'
+      },
+      'id': '109adbbb-675f-ec11-8f8e-001dd8050806',
+      'type': 'dispositions'
+    },
+    {
+      'attributes': {
+        'dcp-boroughboardrecommendation': None,
+        'dcp-boroughpresidentrecommendation': None,
+        'dcp-communityboardrecommendation': 'Favorable',
+        'dcp-consideration': "At the April 19, 2022 Public Hearing, CB1, Queens voted on two motions related to the proposed Hallet's North Development. The second motion to approve the eight referenced actions passed with 19 in favor, 14 opposed and 2 not voting for cause.",
+        'dcp-dateofpublichearing': '2022-04-19T22:30:00.000Z',
+        'dcp-dateofvote': '2022-04-19T04:00:00.000Z',
+        'dcp-datereceived': '2022-04-27T22:17:27.000Z',
+        'dcp-docketdescription': None,
+        'dcp-ispublichearingrequired': 717170000,
+        'dcp-name': '2018Q0491 - ZR - QN CB1  ',
+        'dcp-nameofpersoncompletingthisform': 'ZAP LUP Portal',
+        'dcp-projectaction-value': '1ca8dd43-e699-ea11-a811-001dd8309c75',
+        'dcp-publichearinglocation': 'Zoom Virtual Meeting ',
+        'dcp-recommendationsubmittedby-value': 'QN CB1',
+        'dcp-representing': 'Community Board',
+        'dcp-totalmembersappointedtotheboard': 35,
+        'dcp-visibility': 717170003,
+        'dcp-votelocation': 'Zoom ',
+        'dcp-votingabstainingonrecommendation': 2,
+        'dcp-votingagainstrecommendation': 14,
+        'dcp-votinginfavorrecommendation': 19,
+        'dcp-wasaquorumpresent': True,
+        'documents': [{
+            'name': '2022 Hallets No 3-15 26 AveDCP.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_communityboarddisposition/2018Q0491 - ZR - QN CB1  _279ADBBB675FEC118F8E001DD8050806/2022 Hallets No 3-15 26 AveDCP.pdf',
+            'timeCreated': '2022-04-27T22:17:23Z'
+          },
+          {
+            'name': 'Community -Borough Board Recommendation.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_communityboarddisposition/2018Q0491 - ZR - QN CB1  _279ADBBB675FEC118F8E001DD8050806/Community -Borough Board Recommendation.pdf',
+            'timeCreated': '2022-04-28T03:02:08Z'
+          }
+        ],
+        'statecode': 'Inactive',
+        'statuscode': 'Submitted'
+      },
+      'id': '279adbbb-675f-ec11-8f8e-001dd8050806',
+      'type': 'dispositions'
+    },
+    {
+      'attributes': {
+        'dcp-boroughboardrecommendation': None,
+        'dcp-boroughpresidentrecommendation': None,
+        'dcp-communityboardrecommendation': 'Favorable',
+        'dcp-consideration': "At the April 19, 2022 Public Hearing, CB1, Queens voted on two motions related to the proposed Hallet's North Development. The second motion to approve the eight referenced actions passed with 19 in favor, 14 opposed and 2 not voting for cause.",
+        'dcp-dateofpublichearing': '2022-04-19T22:30:00.000Z',
+        'dcp-dateofvote': '2022-04-19T04:00:00.000Z',
+        'dcp-datereceived': '2022-04-27T22:17:27.000Z',
+        'dcp-docketdescription': 'IN THE MATTER OF an application submitted by Astoria Owners LLC pursuant to Sections 197-c and 201 of the New York City Charter for the grant of a special permit pursuant to the Section 62-837(a) of the Zoning Resolution to modify the height and setback, the maximum residential tower size and the maximum width of walls facing the shoreline requirements of Section 62-34 (Height and Setback Regulations on Waterfront Blocks), in connection with a proposed mixed use development, within a general large-scale development, on property generally bounded by the westerly streeline of the former 3rd Street*, the U.S. Pierhead and Bulkhead Line, a line 330 feet southeasterly of the westerly streetline of the former 3rd Street*, a line 228.5 feet northeasterly of 26th Avenue, a line 179 feet southeasterly of the westerly streetline of the former 3rd Street, and 26th Avenue (Block 911, Lot 1, and the demapped portion of 3rd Street*, in an R7-3/C2-4** District.\n \n*Note: 3rd Street, northeasterly of 26th Avenue, is proposed to be demapped under a concurrent related application for a City Map Change (C 220206 MMQ).\n \n**Note: The site is proposed to be rezoned by changing an M1-1 to an R7-3/C2-4 District under a concurrent related application (C 220196 ZMQ).\nPlans for this proposal are on file with the City Planning Commission and may be seen on the Zoning Application Portal at https://zap.planning.nyc.gov/projects/2020M0112, or the Department of City Planning, 120 Broadway, 31st Floor, New York, NY, 10271-0001. ',
+        'dcp-ispublichearingrequired': 717170000,
+        'dcp-name': '2018Q0491 - ZS - QN CB1  ',
+        'dcp-nameofpersoncompletingthisform': 'ZAP LUP Portal',
+        'dcp-projectaction-value': 'd199e273-e699-ea11-a811-001dd8309c75',
+        'dcp-publichearinglocation': 'Zoom Virtual Meeting ',
+        'dcp-recommendationsubmittedby-value': 'QN CB1',
+        'dcp-representing': 'Community Board',
+        'dcp-totalmembersappointedtotheboard': 35,
+        'dcp-visibility': 717170003,
+        'dcp-votelocation': 'Zoom ',
+        'dcp-votingabstainingonrecommendation': 2,
+        'dcp-votingagainstrecommendation': 14,
+        'dcp-votinginfavorrecommendation': 19,
+        'dcp-wasaquorumpresent': True,
+        'documents': [{
+            'name': 'Community -Borough Board Recommendation.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_communityboarddisposition/2018Q0491 - ZS - QN CB1  _479ADBBB675FEC118F8E001DD8050806/Community -Borough Board Recommendation.pdf',
+            'timeCreated': '2022-04-28T03:02:11Z'
+          },
+          {
+            'name': '2022 Hallets No 3-15 26 AveDCP.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_communityboarddisposition/2018Q0491 - ZS - QN CB1  _479ADBBB675FEC118F8E001DD8050806/2022 Hallets No 3-15 26 AveDCP.pdf',
+            'timeCreated': '2022-04-27T22:17:26Z'
+          }
+        ],
+        'statecode': 'Inactive',
+        'statuscode': 'Submitted'
+      },
+      'id': '479adbbb-675f-ec11-8f8e-001dd8050806',
+      'type': 'dispositions'
+    },
+    {
+      'attributes': {
+        'dcp-boroughboardrecommendation': None,
+        'dcp-boroughpresidentrecommendation': None,
+        'dcp-communityboardrecommendation': 'Favorable',
+        'dcp-consideration': "At the April 19, 2022 Public Hearing, CB1, Queens voted on two motions related to the proposed Hallet's North Development. The second motion to approve the eight referenced actions passed with 19 in favor, 14 opposed and 2 not voting for cause.",
+        'dcp-dateofpublichearing': '2022-04-19T22:30:00.000Z',
+        'dcp-dateofvote': '2022-04-19T04:00:00.000Z',
+        'dcp-datereceived': '2022-04-27T22:17:27.000Z',
+        'dcp-docketdescription': None,
+        'dcp-ispublichearingrequired': 717170000,
+        'dcp-name': '2018Q0491 - ZC - QN CB1  ',
+        'dcp-nameofpersoncompletingthisform': 'ZAP LUP Portal',
+        'dcp-projectaction-value': '9a76c88b-e699-ea11-a811-001dd8309c75',
+        'dcp-publichearinglocation': 'Zoom Virtual Meeting ',
+        'dcp-recommendationsubmittedby-value': 'QN CB1',
+        'dcp-representing': 'Community Board',
+        'dcp-totalmembersappointedtotheboard': 35,
+        'dcp-visibility': 717170003,
+        'dcp-votelocation': 'Zoom ',
+        'dcp-votingabstainingonrecommendation': 2,
+        'dcp-votingagainstrecommendation': 14,
+        'dcp-votinginfavorrecommendation': 19,
+        'dcp-wasaquorumpresent': True,
+        'documents': [{
+            'name': '2022 Hallets No 3-15 26 AveDCP.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_communityboarddisposition/2018Q0491 - ZC - QN CB1  _519ADBBB675FEC118F8E001DD8050806/2022 Hallets No 3-15 26 AveDCP.pdf',
+            'timeCreated': '2022-04-27T22:17:29Z'
+          },
+          {
+            'name': 'Community -Borough Board Recommendation.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_communityboarddisposition/2018Q0491 - ZC - QN CB1  _519ADBBB675FEC118F8E001DD8050806/Community -Borough Board Recommendation.pdf',
+            'timeCreated': '2022-04-28T03:02:14Z'
+          }
+        ],
+        'statecode': 'Inactive',
+        'statuscode': 'Submitted'
+      },
+      'id': '519adbbb-675f-ec11-8f8e-001dd8050806',
+      'type': 'dispositions'
+    },
+    {
+      'attributes': {
+        'dcp-landuseapplication-value': None,
+        'dcp-name': '2018Q0491_Draft Scope of Work_1',
+        'dcp-packageid': 'a9ce13df-586a-eb11-a812-001dd801ec47',
+        'dcp-packagenotes': None,
+        'dcp-packagesubmissiondate': '2021-02-10T22:17:10.000Z',
+        'dcp-packagetype': 717170008,
+        'dcp-packageversion': 1,
+        'dcp-pasform-value': None,
+        'dcp-rwcdsform-value': None,
+        'dcp-statusdate': '2022-04-14T11:58:09.000Z',
+        'dcp-visibility': 717170003,
+        'documents': [{
+            'name': 'Halletts North_Draft Scope of Work_2021.02.10.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_package/2018Q0491_Draft Scope of Work_1_A9CE13DF586AEB11A812001DD801EC47/Halletts North_Draft Scope of Work_2021.02.10.pdf',
+            'timeCreated': '2021-02-10T22:15:02Z'
+          },
+          {
+            'name': 'Halletts North_EAS_2021.02.10.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_package/2018Q0491_Draft Scope of Work_1_A9CE13DF586AEB11A812001DD801EC47/Halletts North_EAS_2021.02.10.pdf',
+            'timeCreated': '2021-02-10T22:15:02Z'
+          }
+        ],
+        'statecode': 1,
+        'statuscode': 717170009
+      },
+      'id': 'a9ce13df-586a-eb11-a812-001dd801ec47',
+      'type': 'packages'
+    },
+    {
+      'attributes': {
+        'dcp-landuseapplication-value': '77718ca5-a736-ec11-b6e5-001dd804c652',
+        'dcp-name': '2018Q0491_Filed LU Package_1',
+        'dcp-packageid': '67718ca5-a736-ec11-b6e5-001dd804c652',
+        'dcp-packagenotes': None,
+        'dcp-packagesubmissiondate': '2021-11-09T23:11:05.000Z',
+        'dcp-packagetype': 717170011,
+        'dcp-packageversion': 1,
+        'dcp-pasform-value': None,
+        'dcp-rwcdsform-value': None,
+        'dcp-statusdate': '2022-03-08T00:17:40.000Z',
+        'dcp-visibility': 717170003,
+        'documents': [{
+            'name': '0. Comment Letter.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_package/2018Q0491_Filed LU Package_1_67718CA5A736EC11B6E5001DD804C652/0. Comment Letter.pdf',
+            'timeCreated': '2021-11-09T23:06:05Z'
+          },
+          {
+            'name': '4. MIH Map - Zoning Text Amendment.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_package/2018Q0491_Filed LU Package_1_67718CA5A736EC11B6E5001DD804C652/4. MIH Map - Zoning Text Amendment.pdf',
+            'timeCreated': '2021-12-17T18:48:14Z'
+          },
+          {
+            'name': '6. Area Map.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_package/2018Q0491_Filed LU Package_1_67718CA5A736EC11B6E5001DD804C652/6. Area Map.pdf',
+            'timeCreated': '2021-11-09T23:06:22Z'
+          },
+          {
+            'name': '9. Zoning Drawings.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_package/2018Q0491_Filed LU Package_1_67718CA5A736EC11B6E5001DD804C652/9. Zoning Drawings.pdf',
+            'timeCreated': '2021-11-09T23:06:57Z'
+          },
+          {
+            'name': '3. Zoning Sectional Map.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_package/2018Q0491_Filed LU Package_1_67718CA5A736EC11B6E5001DD804C652/3. Zoning Sectional Map.pdf',
+            'timeCreated': '2021-11-09T23:06:12Z'
+          },
+          {
+            'name': '11. Visual Corridor Diagram.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_package/2018Q0491_Filed LU Package_1_67718CA5A736EC11B6E5001DD804C652/11. Visual Corridor Diagram.pdf',
+            'timeCreated': '2021-11-09T23:07:25Z'
+          },
+          {
+            'name': '1. Description of Proposal.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_package/2018Q0491_Filed LU Package_1_67718CA5A736EC11B6E5001DD804C652/1. Description of Proposal.pdf',
+            'timeCreated': '2021-12-17T18:48:13Z'
+          },
+          {
+            'name': '8. Zoning Comparison Table.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_package/2018Q0491_Filed LU Package_1_67718CA5A736EC11B6E5001DD804C652/8. Zoning Comparison Table.pdf',
+            'timeCreated': '2021-12-17T18:48:11Z'
+          },
+          {
+            'name': '10. Landscape Drawings.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_package/2018Q0491_Filed LU Package_1_67718CA5A736EC11B6E5001DD804C652/10. Landscape Drawings.pdf',
+            'timeCreated': '2021-11-09T23:07:20Z'
+          },
+          {
+            'name': '2. Statement of Findings.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_package/2018Q0491_Filed LU Package_1_67718CA5A736EC11B6E5001DD804C652/2. Statement of Findings.pdf',
+            'timeCreated': '2021-12-17T18:48:11Z'
+          },
+          {
+            'name': 'LandUse.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_package/2018Q0491_Filed LU Package_1_67718CA5A736EC11B6E5001DD804C652/LandUse.pdf',
+            'timeCreated': '2021-11-10T04:02:16Z'
+          },
+          {
+            'name': '7. Zoning Change Map.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_package/2018Q0491_Filed LU Package_1_67718CA5A736EC11B6E5001DD804C652/7. Zoning Change Map.pdf',
+            'timeCreated': '2021-11-09T23:06:43Z'
+          },
+          {
+            'name': '5. Tax Map.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_package/2018Q0491_Filed LU Package_1_67718CA5A736EC11B6E5001DD804C652/5. Tax Map.pdf',
+            'timeCreated': '2021-11-09T23:06:19Z'
+          }
+        ],
+        'statecode': 1,
+        'statuscode': 717170010
+      },
+      'id': '67718ca5-a736-ec11-b6e5-001dd804c652',
+      'type': 'packages'
+    },
+    {
+      'attributes': {
+        'dcp-landuseapplication-value': '86b94fd1-45a6-ec11-b400-001dd804fa1d',
+        'dcp-name': '2018Q0491_Filed LU Package_3',
+        'dcp-packageid': '646269d7-45a6-ec11-b400-001dd804fa1d',
+        'dcp-packagenotes': None,
+        'dcp-packagesubmissiondate': '2022-03-22T14:05:34.000Z',
+        'dcp-packagetype': 717170011,
+        'dcp-packageversion': 3,
+        'dcp-pasform-value': None,
+        'dcp-rwcdsform-value': None,
+        'dcp-statusdate': '2022-03-22T19:44:40.000Z',
+        'dcp-visibility': 717170003,
+        'documents': [{
+            'name': '6. Area Map.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_package/2018Q0491_Filed LU Package_3_646269D745A6EC11B400001DD804FA1D/6. Area Map.pdf',
+            'timeCreated': '2022-03-18T20:56:13Z'
+          },
+          {
+            'name': '1. Description of Proposal.docx',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_package/2018Q0491_Filed LU Package_3_646269D745A6EC11B400001DD804FA1D/1. Description of Proposal.docx',
+            'timeCreated': '2022-03-22T14:02:13Z'
+          },
+          {
+            'name': '11. VisualCorridor Diagram.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_package/2018Q0491_Filed LU Package_3_646269D745A6EC11B400001DD804FA1D/11. VisualCorridor Diagram.pdf',
+            'timeCreated': '2022-03-18T20:58:20Z'
+          },
+          {
+            'name': '5. Tax Map.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_package/2018Q0491_Filed LU Package_3_646269D745A6EC11B400001DD804FA1D/5. Tax Map.pdf',
+            'timeCreated': '2022-03-18T20:56:07Z'
+          },
+          {
+            'name': '3. Zoning Sectional Map.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_package/2018Q0491_Filed LU Package_3_646269D745A6EC11B400001DD804FA1D/3. Zoning Sectional Map.pdf',
+            'timeCreated': '2022-03-18T20:56:00Z'
+          },
+          {
+            'name': '0. Comment Letter.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_package/2018Q0491_Filed LU Package_3_646269D745A6EC11B400001DD804FA1D/0. Comment Letter.pdf',
+            'timeCreated': '2022-03-18T20:55:54Z'
+          },
+          {
+            'name': 'LandUse.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_package/2018Q0491_Filed LU Package_3_646269D745A6EC11B400001DD804FA1D/LandUse.pdf',
+            'timeCreated': '2022-03-22T14:45:49Z'
+          },
+          {
+            'name': '9. Zoning Drawings.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_package/2018Q0491_Filed LU Package_3_646269D745A6EC11B400001DD804FA1D/9. Zoning Drawings.pdf',
+            'timeCreated': '2022-03-18T20:56:53Z'
+          },
+          {
+            'name': '8. Zoning Comparison Table.xlsx',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_package/2018Q0491_Filed LU Package_3_646269D745A6EC11B400001DD804FA1D/8. Zoning Comparison Table.xlsx',
+            'timeCreated': '2022-03-18T20:56:39Z'
+          },
+          {
+            'name': '10. Landscape Drawings.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_package/2018Q0491_Filed LU Package_3_646269D745A6EC11B400001DD804FA1D/10. Landscape Drawings.pdf',
+            'timeCreated': '2022-03-18T20:57:42Z'
+          },
+          {
+            'name': '4. MIH Map - Zoning Text Amendment.docx',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_package/2018Q0491_Filed LU Package_3_646269D745A6EC11B400001DD804FA1D/4. MIH Map - Zoning Text Amendment.docx',
+            'timeCreated': '2022-03-18T20:56:01Z'
+          },
+          {
+            'name': '7. Zoning Change Map.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_package/2018Q0491_Filed LU Package_3_646269D745A6EC11B400001DD804FA1D/7. Zoning Change Map.pdf',
+            'timeCreated': '2022-03-18T20:56:38Z'
+          },
+          {
+            'name': '2. Statement of Findings.docx',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_package/2018Q0491_Filed LU Package_3_646269D745A6EC11B400001DD804FA1D/2. Statement of Findings.docx',
+            'timeCreated': '2022-03-22T14:02:14Z'
+          }
+        ],
+        'statecode': 1,
+        'statuscode': 717170010
+      },
+      'id': '646269d7-45a6-ec11-b400-001dd804fa1d',
+      'type': 'packages'
+    },
+    {
+      'attributes': {
+        'dcp-artifactdocumentlocation': 'https://nyco365.sharepoint.com/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Certified EAS_21DCP138Q - 1_1FE4372A1376EB11A812001DD801C33F',
+        'dcp-artifactsid': '1fe4372a-1376-eb11-a812-001dd801c33f',
+        'dcp-name': '2018Q0491 - Certified EAS_21DCP138Q - 1',
+        'dcp-packagetype': None,
+        'dcp-submittedfilename': '2018Q0491__2/23/2021 3:10 PM _1  ',
+        'dcp-visibility': 717170003,
+        'documents': [{
+          'name': '21DCP138Q_Certified_EAS_02192021.pdf',
+          'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Certified EAS_21DCP138Q - 1_1FE4372A1376EB11A812001DD801C33F/21DCP138Q_Certified_EAS_02192021.pdf',
+          'timeCreated': '2021-02-23T20:11:14Z'
+        }],
+        'modifiedon': '2022-03-24T16:54:30.000Z',
+        'versionnumber': 316893370
+      },
+      'id': '1fe4372a-1376-eb11-a812-001dd801c33f',
+      'type': 'artifacts'
+    },
+    {
+      'attributes': {
+        'dcp-artifactdocumentlocation': 'https://nyco365.sharepoint.com/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Positive Declaration - 1_E40B805C1376EB11A812001DD801C33F',
+        'dcp-artifactsid': 'e40b805c-1376-eb11-a812-001dd801c33f',
+        'dcp-name': '2018Q0491 - Positive Declaration - 1',
+        'dcp-packagetype': None,
+        'dcp-submittedfilename': '2018Q0491__2/23/2021 3:11 PM _1  ',
+        'dcp-visibility': 717170003,
+        'documents': [{
+          'name': '21DCP138Q_Positive_Declaration_02192021.pdf',
+          'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Positive Declaration - 1_E40B805C1376EB11A812001DD801C33F/21DCP138Q_Positive_Declaration_02192021.pdf',
+          'timeCreated': '2021-02-23T20:12:13Z'
+        }],
+        'modifiedon': '2022-03-24T16:54:44.000Z',
+        'versionnumber': 316893396
+      },
+      'id': 'e40b805c-1376-eb11-a812-001dd801c33f',
+      'type': 'artifacts'
+    },
+    {
+      'attributes': {
+        'dcp-artifactdocumentlocation': 'https://nyco365.sharepoint.com/sites/nycdcppfs/dcp_artifacts/2018Q0491 - CPC Presentation - 1_1A467CAAC9AEEC11983E001DD8049101',
+        'dcp-artifactsid': '1a467caa-c9ae-ec11-983e-001dd8049101',
+        'dcp-name': '2018Q0491 - CPC Presentation - 1',
+        'dcp-packagetype': None,
+        'dcp-submittedfilename': '2018Q0491_CPC Presentations_3/28/2022 3:03 PM _1  ',
+        'dcp-visibility': 717170003,
+        'documents': [{
+          'name': '032822_Halletts North_Certification.pdf',
+          'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - CPC Presentation - 1_1A467CAAC9AEEC11983E001DD8049101/032822_Halletts North_Certification.pdf',
+          'timeCreated': '2022-03-28T19:04:21Z'
+        }],
+        'modifiedon': '2022-03-28T19:05:35.000Z',
+        'versionnumber': 318951563
+      },
+      'id': '1a467caa-c9ae-ec11-983e-001dd8049101',
+      'type': 'artifacts'
+    },
+    {
+      'attributes': {
+        'dcp-artifactdocumentlocation': 'https://nyco365.sharepoint.com/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Notice of Certification - 1_5427304638B4EC11983E001DD804D45F',
+        'dcp-artifactsid': '54273046-38b4-ec11-983e-001dd804d45f',
+        'dcp-name': '2018Q0491 - Notice of Certification - 1',
+        'dcp-packagetype': None,
+        'dcp-submittedfilename': '2018Q0491__4/4/2022 12:57 PM _1  ',
+        'dcp-visibility': 717170003,
+        'documents': [{
+            'name': 'Zoning Change Map.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Notice of Certification - 1_5427304638B4EC11983E001DD804D45F/Zoning Change Map.pdf',
+            'timeCreated': '2022-04-04T16:59:09Z'
+          },
+          {
+            'name': 'Zoning Drawings.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Notice of Certification - 1_5427304638B4EC11983E001DD804D45F/Zoning Drawings.pdf',
+            'timeCreated': '2022-04-04T16:59:18Z'
+          },
+          {
+            'name': 'Zoning Sectional Map.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Notice of Certification - 1_5427304638B4EC11983E001DD804D45F/Zoning Sectional Map.pdf',
+            'timeCreated': '2022-04-04T16:59:12Z'
+          },
+          {
+            'name': 'C 220196 ZMQ.SKT.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Notice of Certification - 1_5427304638B4EC11983E001DD804D45F/C 220196 ZMQ.SKT.pdf',
+            'timeCreated': '2022-04-04T16:58:04Z'
+          },
+          {
+            'name': 'Landscape Drawings.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Notice of Certification - 1_5427304638B4EC11983E001DD804D45F/Landscape Drawings.pdf',
+            'timeCreated': '2022-04-04T16:59:02Z'
+          },
+          {
+            'name': 'C 220196 ZMQ.NOC.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Notice of Certification - 1_5427304638B4EC11983E001DD804D45F/C 220196 ZMQ.NOC.pdf',
+            'timeCreated': '2022-04-04T16:58:05Z'
+          },
+          {
+            'name': 'MIH Map - Zoning Text Amendment.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Notice of Certification - 1_5427304638B4EC11983E001DD804D45F/MIH Map - Zoning Text Amendment.pdf',
+            'timeCreated': '2022-04-04T16:59:04Z'
+          },
+          {
+            'name': 'LandUse.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Notice of Certification - 1_5427304638B4EC11983E001DD804D45F/LandUse.pdf',
+            'timeCreated': '2022-04-04T16:59:03Z'
+          },
+          {
+            'name': 'VisualCorridor Diagram.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Notice of Certification - 1_5427304638B4EC11983E001DD804D45F/VisualCorridor Diagram.pdf',
+            'timeCreated': '2022-04-04T16:59:10Z'
+          },
+          {
+            'name': 'Description of Proposal.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Notice of Certification - 1_5427304638B4EC11983E001DD804D45F/Description of Proposal.pdf',
+            'timeCreated': '2022-04-04T16:59:03Z'
+          },
+          {
+            'name': 'C 220198 ZSQ.NOC.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Notice of Certification - 1_5427304638B4EC11983E001DD804D45F/C 220198 ZSQ.NOC.pdf',
+            'timeCreated': '2022-04-04T16:58:05Z'
+          },
+          {
+            'name': 'C 220206 MMQ.NOC.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Notice of Certification - 1_5427304638B4EC11983E001DD804D45F/C 220206 MMQ.NOC.pdf',
+            'timeCreated': '2022-04-04T16:58:06Z'
+          },
+          {
+            'name': 'C 220206 MMQ.SKT.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Notice of Certification - 1_5427304638B4EC11983E001DD804D45F/C 220206 MMQ.SKT.pdf',
+            'timeCreated': '2022-04-04T16:58:06Z'
+          },
+          {
+            'name': 'Tax Map.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Notice of Certification - 1_5427304638B4EC11983E001DD804D45F/Tax Map.pdf',
+            'timeCreated': '2022-04-04T16:59:08Z'
+          },
+          {
+            'name': 'Area Map.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Notice of Certification - 1_5427304638B4EC11983E001DD804D45F/Area Map.pdf',
+            'timeCreated': '2022-04-04T16:59:06Z'
+          },
+          {
+            'name': 'Statement of Findings.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Notice of Certification - 1_5427304638B4EC11983E001DD804D45F/Statement of Findings.pdf',
+            'timeCreated': '2022-04-04T16:59:04Z'
+          },
+          {
+            'name': 'Zoning Comparison Table.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Notice of Certification - 1_5427304638B4EC11983E001DD804D45F/Zoning Comparison Table.pdf',
+            'timeCreated': '2022-04-04T16:59:09Z'
+          }
+        ],
+        'modifiedon': '2022-04-28T15:16:21.000Z',
+        'versionnumber': 335854806
+      },
+      'id': '54273046-38b4-ec11-983e-001dd804d45f',
+      'type': 'artifacts'
+    },
+    {
+      'attributes': {
+        'dcp-artifactdocumentlocation': 'https://nyco365.sharepoint.com/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Final Scope Of Work - 1_0CF170475EACEC11B3FE001DD804D73E',
+        'dcp-artifactsid': '0cf17047-5eac-ec11-b3fe-001dd804d73e',
+        'dcp-name': '2018Q0491 - Final Scope Of Work - 1',
+        'dcp-packagetype': None,
+        'dcp-submittedfilename': '2018Q0491_Final Scope of Work_3/25/2022 1:09 PM _1  ',
+        'dcp-visibility': 717170003,
+        'documents': [{
+          'name': '21DCP138Q_Final_Scope_Of_Work_03252022.pdf',
+          'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Final Scope Of Work - 1_0CF170475EACEC11B3FE001DD804D73E/21DCP138Q_Final_Scope_Of_Work_03252022.pdf',
+          'timeCreated': '2022-03-25T17:09:44Z'
+        }],
+        'modifiedon': '2022-03-25T17:09:31.000Z',
+        'versionnumber': 317176333
+      },
+      'id': '0cf17047-5eac-ec11-b3fe-001dd804d73e',
+      'type': 'artifacts'
+    },
+    {
+      'attributes': {
+        'dcp-artifactdocumentlocation': 'https://nyco365.sharepoint.com/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Executive Summary - 1_06A7908C5EACEC11B3FE001DD804D73E',
+        'dcp-artifactsid': '06a7908c-5eac-ec11-b3fe-001dd804d73e',
+        'dcp-name': '2018Q0491 - Executive Summary - 1',
+        'dcp-packagetype': None,
+        'dcp-submittedfilename': '2018Q0491__3/25/2022 1:11 PM _1  ',
+        'dcp-visibility': 717170003,
+        'documents': [{
+          'name': '21DCP138Q_Executive Summary.pdf',
+          'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Executive Summary - 1_06A7908C5EACEC11B3FE001DD804D73E/21DCP138Q_Executive Summary.pdf',
+          'timeCreated': '2022-03-25T17:12:21Z'
+        }],
+        'modifiedon': '2022-03-25T17:11:22.000Z',
+        'versionnumber': 317178304
+      },
+      'id': '06a7908c-5eac-ec11-b3fe-001dd804d73e',
+      'type': 'artifacts'
+    },
+    {
+      'attributes': {
+        'dcp-artifactdocumentlocation': 'https://nyco365.sharepoint.com/sites/nycdcppfs/dcp_artifacts/2018Q0491 - DEIS_21DCP138Q - 1_F83A5A6D5FACEC11B3FE001DD804D73E',
+        'dcp-artifactsid': 'f83a5a6d-5fac-ec11-b3fe-001dd804d73e',
+        'dcp-name': '2018Q0491 - DEIS_21DCP138Q - 1',
+        'dcp-packagetype': None,
+        'dcp-submittedfilename': '2018Q0491_Draft EIS_3/25/2022 1:17 PM _1  ',
+        'dcp-visibility': 717170003,
+        'documents': [{
+            'name': '21DCP138Q_DEIS_02_Land Use, Zoning, and Public Policy.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - DEIS_21DCP138Q - 1_F83A5A6D5FACEC11B3FE001DD804D73E/21DCP138Q_DEIS_02_Land Use, Zoning, and Public Policy.pdf',
+            'timeCreated': '2022-03-25T17:17:56Z'
+          },
+          {
+            'name': '21DCP138Q_DEIS_11_Transportation.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - DEIS_21DCP138Q - 1_F83A5A6D5FACEC11B3FE001DD804D73E/21DCP138Q_DEIS_11_Transportation.pdf',
+            'timeCreated': '2022-03-25T17:18:13Z'
+          },
+          {
+            'name': '21DCP138Q_DEIS_08_Natural Resources.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - DEIS_21DCP138Q - 1_F83A5A6D5FACEC11B3FE001DD804D73E/21DCP138Q_DEIS_08_Natural Resources.pdf',
+            'timeCreated': '2022-03-25T17:18:10Z'
+          },
+          {
+            'name': '21DCP138Q_DEIS_Appendix B_WRP CAF.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - DEIS_21DCP138Q - 1_F83A5A6D5FACEC11B3FE001DD804D73E/21DCP138Q_DEIS_Appendix B_WRP CAF.pdf',
+            'timeCreated': '2022-03-25T17:18:18Z'
+          },
+          {
+            'name': '21DCP138Q_DEIS_20_Unavoidable Adverse Impacts.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - DEIS_21DCP138Q - 1_F83A5A6D5FACEC11B3FE001DD804D73E/21DCP138Q_DEIS_20_Unavoidable Adverse Impacts.pdf',
+            'timeCreated': '2022-03-25T17:18:15Z'
+          },
+          {
+            'name': '21DCP138Q_DEIS_19_Alternatives.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - DEIS_21DCP138Q - 1_F83A5A6D5FACEC11B3FE001DD804D73E/21DCP138Q_DEIS_19_Alternatives.pdf',
+            'timeCreated': '2022-03-25T17:18:16Z'
+          },
+          {
+            'name': '21DCP138Q_DEIS_Appendix C_Pedestrian Wind Study.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - DEIS_21DCP138Q - 1_F83A5A6D5FACEC11B3FE001DD804D73E/21DCP138Q_DEIS_Appendix C_Pedestrian Wind Study.pdf',
+            'timeCreated': '2022-03-25T17:18:19Z'
+          },
+          {
+            'name': '21DCP138Q_DEIS_00_Executive Summary.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - DEIS_21DCP138Q - 1_F83A5A6D5FACEC11B3FE001DD804D73E/21DCP138Q_DEIS_00_Executive Summary.pdf',
+            'timeCreated': '2022-03-25T17:17:57Z'
+          },
+          {
+            'name': '21DCP138Q_DEIS_Appendix D_Agency Correspondence.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - DEIS_21DCP138Q - 1_F83A5A6D5FACEC11B3FE001DD804D73E/21DCP138Q_DEIS_Appendix D_Agency Correspondence.pdf',
+            'timeCreated': '2022-03-25T17:18:21Z'
+          },
+          {
+            'name': '21DCP138Q_DEIS_14_Noise.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - DEIS_21DCP138Q - 1_F83A5A6D5FACEC11B3FE001DD804D73E/21DCP138Q_DEIS_14_Noise.pdf',
+            'timeCreated': '2022-03-25T17:18:13Z'
+          },
+          {
+            'name': '21DCP138Q_DEIS_09_Hazardous Materials.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - DEIS_21DCP138Q - 1_F83A5A6D5FACEC11B3FE001DD804D73E/21DCP138Q_DEIS_09_Hazardous Materials.pdf',
+            'timeCreated': '2022-03-25T17:18:09Z'
+          },
+          {
+            'name': '21DCP138Q_DEIS_17_Construction.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - DEIS_21DCP138Q - 1_F83A5A6D5FACEC11B3FE001DD804D73E/21DCP138Q_DEIS_17_Construction.pdf',
+            'timeCreated': '2022-03-25T17:18:15Z'
+          },
+          {
+            'name': '21DCP138Q_DEIS_12_Air Quality.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - DEIS_21DCP138Q - 1_F83A5A6D5FACEC11B3FE001DD804D73E/21DCP138Q_DEIS_12_Air Quality.pdf',
+            'timeCreated': '2022-03-25T17:18:12Z'
+          },
+          {
+            'name': '21DCP138Q_DEIS_15_Public Health.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - DEIS_21DCP138Q - 1_F83A5A6D5FACEC11B3FE001DD804D73E/21DCP138Q_DEIS_15_Public Health.pdf',
+            'timeCreated': '2022-03-25T17:18:12Z'
+          },
+          {
+            'name': '21DCP138Q_DEIS_16_Neighborhood Character.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - DEIS_21DCP138Q - 1_F83A5A6D5FACEC11B3FE001DD804D73E/21DCP138Q_DEIS_16_Neighborhood Character.pdf',
+            'timeCreated': '2022-03-25T17:18:14Z'
+          },
+          {
+            'name': '21DCP138Q_DEIS_05_Open Space.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - DEIS_21DCP138Q - 1_F83A5A6D5FACEC11B3FE001DD804D73E/21DCP138Q_DEIS_05_Open Space.pdf',
+            'timeCreated': '2022-03-25T17:18:02Z'
+          },
+          {
+            'name': '21DCP138Q_DEIS_13_Greenhouse Gas Emissions and Climate Change.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - DEIS_21DCP138Q - 1_F83A5A6D5FACEC11B3FE001DD804D73E/21DCP138Q_DEIS_13_Greenhouse Gas Emissions and Climate Change.pdf',
+            'timeCreated': '2022-03-25T17:18:11Z'
+          },
+          {
+            'name': '21DCP138Q_DEIS_01_Project Description.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - DEIS_21DCP138Q - 1_F83A5A6D5FACEC11B3FE001DD804D73E/21DCP138Q_DEIS_01_Project Description.pdf',
+            'timeCreated': '2022-03-25T17:17:57Z'
+          },
+          {
+            'name': '21DCP138Q_DEIS_06_Shadows.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - DEIS_21DCP138Q - 1_F83A5A6D5FACEC11B3FE001DD804D73E/21DCP138Q_DEIS_06_Shadows.pdf',
+            'timeCreated': '2022-03-25T17:17:59Z'
+          },
+          {
+            'name': '21DCP138Q_DEIS_21_Growth-Inducing Aspects of the Proposed Actions.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - DEIS_21DCP138Q - 1_F83A5A6D5FACEC11B3FE001DD804D73E/21DCP138Q_DEIS_21_Growth-Inducing Aspects of the Proposed Actions.pdf',
+            'timeCreated': '2022-03-25T17:18:15Z'
+          },
+          {
+            'name': '21DCP138Q_DEIS_000_Cover_Pages and Table of Contents.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - DEIS_21DCP138Q - 1_F83A5A6D5FACEC11B3FE001DD804D73E/21DCP138Q_DEIS_000_Cover_Pages and Table of Contents.pdf',
+            'timeCreated': '2022-03-25T17:17:49Z'
+          },
+          {
+            'name': '21DCP138Q_DEIS_03_Socioeconomic Conditions.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - DEIS_21DCP138Q - 1_F83A5A6D5FACEC11B3FE001DD804D73E/21DCP138Q_DEIS_03_Socioeconomic Conditions.pdf',
+            'timeCreated': '2022-03-25T17:17:57Z'
+          },
+          {
+            'name': '21DCP138Q_DEIS_Appendix E_Brownfield Cleanup Program Certificate of Completion.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - DEIS_21DCP138Q - 1_F83A5A6D5FACEC11B3FE001DD804D73E/21DCP138Q_DEIS_Appendix E_Brownfield Cleanup Program Certificate of Completion.pdf',
+            'timeCreated': '2022-03-25T17:18:21Z'
+          },
+          {
+            'name': '21DCP138Q_DEIS_18_Mitigation.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - DEIS_21DCP138Q - 1_F83A5A6D5FACEC11B3FE001DD804D73E/21DCP138Q_DEIS_18_Mitigation.pdf',
+            'timeCreated': '2022-03-25T17:18:15Z'
+          },
+          {
+            'name': '21DCP138Q_DEIS_04_Community Facilities and Services.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - DEIS_21DCP138Q - 1_F83A5A6D5FACEC11B3FE001DD804D73E/21DCP138Q_DEIS_04_Community Facilities and Services.pdf',
+            'timeCreated': '2022-03-25T17:18:02Z'
+          },
+          {
+            'name': '21DCP138Q_DEIS_10_Water and Sewer Infrastructure.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - DEIS_21DCP138Q - 1_F83A5A6D5FACEC11B3FE001DD804D73E/21DCP138Q_DEIS_10_Water and Sewer Infrastructure.pdf',
+            'timeCreated': '2022-03-25T17:18:10Z'
+          },
+          {
+            'name': '21DCP138Q_DEIS_07_Urban Design and Visual Resources.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - DEIS_21DCP138Q - 1_F83A5A6D5FACEC11B3FE001DD804D73E/21DCP138Q_DEIS_07_Urban Design and Visual Resources.pdf',
+            'timeCreated': '2022-03-25T17:18:08Z'
+          },
+          {
+            'name': '21DCP138Q_DEIS_22_Irreversible and Irretrievable Commitments of Resources.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - DEIS_21DCP138Q - 1_F83A5A6D5FACEC11B3FE001DD804D73E/21DCP138Q_DEIS_22_Irreversible and Irretrievable Commitments of Resources.pdf',
+            'timeCreated': '2022-03-25T17:18:17Z'
+          },
+          {
+            'name': '21DCP138Q_DEIS_Appendix A_CEQR TM Updates Tech Memo.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - DEIS_21DCP138Q - 1_F83A5A6D5FACEC11B3FE001DD804D73E/21DCP138Q_DEIS_Appendix A_CEQR TM Updates Tech Memo.pdf',
+            'timeCreated': '2022-03-25T17:18:19Z'
+          }
+        ],
+        'modifiedon': '2022-03-25T17:17:32.000Z',
+        'versionnumber': 317179128
+      },
+      'id': 'f83a5a6d-5fac-ec11-b3fe-001dd804d73e',
+      'type': 'artifacts'
+    },
+    {
+      'attributes': {
+        'dcp-artifactdocumentlocation': 'https://nyco365.sharepoint.com/sites/nycdcppfs/dcp_artifacts/2018Q0491 - DEIS_Notice Of Completion - 1_C827F2B15FACEC11B3FE001DD804D73E',
+        'dcp-artifactsid': 'c827f2b1-5fac-ec11-b3fe-001dd804d73e',
+        'dcp-name': '2018Q0491 - DEIS_Notice Of Completion - 1',
+        'dcp-packagetype': None,
+        'dcp-submittedfilename': '2018Q0491_Notice of Completion for Draft EIS_3/25/2022 1:19 PM _1  ',
+        'dcp-visibility': 717170003,
+        'documents': [{
+          'name': '21DCP138Q_DEIS_Notice_Of_Completion_03252022.pdf',
+          'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - DEIS_Notice Of Completion - 1_C827F2B15FACEC11B3FE001DD804D73E/21DCP138Q_DEIS_Notice_Of_Completion_03252022.pdf',
+          'timeCreated': '2022-03-25T17:19:45Z'
+        }],
+        'modifiedon': '2022-03-25T17:19:33.000Z',
+        'versionnumber': 317179458
+      },
+      'id': 'c827f2b1-5fac-ec11-b3fe-001dd804d73e',
+      'type': 'artifacts'
+    },
+    {
+      'attributes': {
+        'dcp-artifactdocumentlocation': 'https://nyco365.sharepoint.com/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Notice of Receipt - 1_B23FBCF88763EC118F8E001DD8050CA5',
+        'dcp-artifactsid': 'b23fbcf8-8763-ec11-8f8e-001dd8050ca5',
+        'dcp-name': '2018Q0491 - Notice of Receipt - 1',
+        'dcp-packagetype': None,
+        'dcp-submittedfilename': '2018Q0491__12/22/2021 7:33 PM _1  ',
+        'dcp-visibility': 717170003,
+        'documents': [{
+            'name': 'LandUse.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Notice of Receipt - 1_B23FBCF88763EC118F8E001DD8050CA5/NOR/LandUse.pdf',
+            'timeCreated': '2021-12-23T00:35:06Z'
+          },
+          {
+            'name': '2. Statement of Findings.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Notice of Receipt - 1_B23FBCF88763EC118F8E001DD8050CA5/NOR/2. Statement of Findings.pdf',
+            'timeCreated': '2021-12-23T00:34:37Z'
+          },
+          {
+            'name': '7. Zoning Change Map.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Notice of Receipt - 1_B23FBCF88763EC118F8E001DD8050CA5/NOR/7. Zoning Change Map.pdf',
+            'timeCreated': '2021-12-23T00:34:46Z'
+          },
+          {
+            'name': 'Notice of Receipt.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Notice of Receipt - 1_B23FBCF88763EC118F8E001DD8050CA5/NOR/Notice of Receipt.pdf',
+            'timeCreated': '2021-12-23T00:35:06Z'
+          },
+          {
+            'name': '6. Area Map.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Notice of Receipt - 1_B23FBCF88763EC118F8E001DD8050CA5/NOR/6. Area Map.pdf',
+            'timeCreated': '2021-12-23T00:34:45Z'
+          },
+          {
+            'name': '3. Zoning Sectional Map.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Notice of Receipt - 1_B23FBCF88763EC118F8E001DD8050CA5/NOR/3. Zoning Sectional Map.pdf',
+            'timeCreated': '2021-12-23T00:34:40Z'
+          },
+          {
+            'name': '8. Zoning Comparison Table.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Notice of Receipt - 1_B23FBCF88763EC118F8E001DD8050CA5/NOR/8. Zoning Comparison Table.pdf',
+            'timeCreated': '2021-12-23T00:34:46Z'
+          },
+          {
+            'name': '11. Visual Corridor Diagram.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Notice of Receipt - 1_B23FBCF88763EC118F8E001DD8050CA5/NOR/11. Visual Corridor Diagram.pdf',
+            'timeCreated': '2021-12-23T00:34:40Z'
+          },
+          {
+            'name': '10. Landscape Drawings.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Notice of Receipt - 1_B23FBCF88763EC118F8E001DD8050CA5/NOR/10. Landscape Drawings.pdf',
+            'timeCreated': '2021-12-23T00:34:34Z'
+          },
+          {
+            'name': '1. Description of Proposal.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Notice of Receipt - 1_B23FBCF88763EC118F8E001DD8050CA5/NOR/1. Description of Proposal.pdf',
+            'timeCreated': '2021-12-23T00:34:35Z'
+          },
+          {
+            'name': '5. Tax Map.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Notice of Receipt - 1_B23FBCF88763EC118F8E001DD8050CA5/NOR/5. Tax Map.pdf',
+            'timeCreated': '2021-12-23T00:34:45Z'
+          },
+          {
+            'name': '9. Zoning Drawings.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Notice of Receipt - 1_B23FBCF88763EC118F8E001DD8050CA5/NOR/9. Zoning Drawings.pdf',
+            'timeCreated': '2021-12-23T00:35:05Z'
+          },
+          {
+            'name': '4. MIH Map - Zoning Text Amendment.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Notice of Receipt - 1_B23FBCF88763EC118F8E001DD8050CA5/NOR/4. MIH Map - Zoning Text Amendment.pdf',
+            'timeCreated': '2021-12-23T00:34:41Z'
+          }
+        ],
+        'modifiedon': '2021-12-23T00:34:02.000Z',
+        'versionnumber': 288306875
+      },
+      'id': 'b23fbcf8-8763-ec11-8f8e-001dd8050ca5',
+      'type': 'artifacts'
+    },
+    {
+      'attributes': {
+        'dcp-artifactdocumentlocation': 'https://nyco365.sharepoint.com/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Lead Agency Letter - 1_2B94E6797D70EB11A812001DD83056B5',
+        'dcp-artifactsid': '2b94e679-7d70-eb11-a812-001dd83056b5',
+        'dcp-name': '2018Q0491 - Lead Agency Letter - 1',
+        'dcp-packagetype': None,
+        'dcp-submittedfilename': '2018Q0491__2/16/2021 12:36 PM _1  ',
+        'dcp-visibility': 717170003,
+        'documents': [{
+          'name': '21DCP138Q_Lead_Agency_Letter_02122021.pdf',
+          'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Lead Agency Letter - 1_2B94E6797D70EB11A812001DD83056B5/21DCP138Q_Lead_Agency_Letter_02122021.pdf',
+          'timeCreated': '2021-02-16T17:53:46Z'
+        }],
+        'modifiedon': '2022-03-24T15:44:57.000Z',
+        'versionnumber': 316878199
+      },
+      'id': '2b94e679-7d70-eb11-a812-001dd83056b5',
+      'type': 'artifacts'
+    },
+    {
+      'attributes': {
+        'dcp-artifactdocumentlocation': 'https://nyco365.sharepoint.com/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Dockets - 1_153E49E202D2EC11A7B4001DD830A86A',
+        'dcp-artifactsid': '153e49e2-02d2-ec11-a7b4-001dd830a86a',
+        'dcp-name': '2018Q0491 - Dockets - 1',
+        'dcp-packagetype': None,
+        'dcp-submittedfilename': '2018Q0491_Docket_5/12/2022 10:50 AM _1  ',
+        'dcp-visibility': 717170003,
+        'documents': [{
+            'name': '220196ZMQ_Dkt.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Dockets - 1_153E49E202D2EC11A7B4001DD830A86A/220196ZMQ_Dkt.pdf',
+            'timeCreated': '2022-05-12T14:53:31Z'
+          },
+          {
+            'name': '220197ZRQ_Dkt.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Dockets - 1_153E49E202D2EC11A7B4001DD830A86A/220197ZRQ_Dkt.pdf',
+            'timeCreated': '2022-05-12T16:26:29Z'
+          },
+          {
+            'name': '220206MMQ_Dkt.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Dockets - 1_153E49E202D2EC11A7B4001DD830A86A/220206MMQ_Dkt.pdf',
+            'timeCreated': '2022-05-12T14:52:42Z'
+          },
+          {
+            'name': '220198ZSQ_Dkt.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Dockets - 1_153E49E202D2EC11A7B4001DD830A86A/220198ZSQ_Dkt.pdf',
+            'timeCreated': '2022-05-12T14:52:58Z'
+          },
+          {
+            'name': '21DCP138Q_DEIS_Dkt.pdf',
+            'serverRelativeUrl': '/sites/nycdcppfs/dcp_artifacts/2018Q0491 - Dockets - 1_153E49E202D2EC11A7B4001DD830A86A/21DCP138Q_DEIS_Dkt.pdf',
+            'timeCreated': '2022-05-13T14:48:49Z'
+          }
+        ],
+        'modifiedon': '2022-05-13T16:24:52.000Z',
+        'versionnumber': 345707380
+      },
+      'id': '153e49e2-02d2-ec11-a7b4-001dd830a86a',
+      'type': 'artifacts'
+    }
+  ],
+  'meta': {}
+}
