@@ -12,6 +12,12 @@ map.on('style.load', () => {
 map.setFog({}); // Set the default atmosphere style
 });
 
+// get project id
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+const project_id = urlParams.get('id')
+console.log(project_id);
+
 var acc = document.getElementsByClassName("accordion");
 var i;
 
@@ -61,4 +67,36 @@ for (i = 0; i < p.length; i++) {
   }
   this.classList.toggle("active");
   });
+}
+
+var bblitems = document.getElementsByClassName("bbl-item");
+var i;
+
+for (i = 0; i < bblitems.length; i++) {
+  bblitems[i].addEventListener("click", function() {
+    for (i = 0; i < bblitems.length; i++) {
+      bblitems[i].classList.remove("active");
+  }
+    this.classList.toggle("active");
+    
+  });
+}
+
+var zapAPI = 'https://zap-api-production.herokuapp.com/projects/'
+zapData = {}
+
+// if (project_id) {
+//   fetch(zapAPI + project_id)
+//   .then(response => response.json())
+//   .then(data => zapData = data);
+// }
+
+if (project_id) {
+  fetch('zapdata-sample.json')
+  .then(response => response.json())
+  .then(data => zapData = data);
+}
+
+if (zapData) {
+  
 }
