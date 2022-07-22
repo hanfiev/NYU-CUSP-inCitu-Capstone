@@ -139,6 +139,7 @@ a {
   color: #5D0E8B;
   margin-right: 10px;
   cursor: pointer;
+  transition: 0.4s ease-out;
 }
 
 .bbl-item.active {
