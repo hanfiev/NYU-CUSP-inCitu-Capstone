@@ -32,7 +32,7 @@
   </header>
   <div class="submenu">
     <div id="project-nav">
-      <div class="subnavitem active" id="overview" onclick="toggleOverview()" >Project Overview</div>
+      <div class="subnavitem active" id="overview" onclick="toggleOverview()">Project Overview</div>
       <div class="subnavitem" id="documents" onclick="toggleDocuments()">Documents</div>
     </div>
   </div>
@@ -42,10 +42,10 @@
         <input type="text" name="search" id="searchFiles" placeholder="Search Documents">
       </div>
       <div id="files">
-        <div class="files-card">
-          <button class="accordion">Draft Scope of Work v1</button>
+        <div id="files-card" class="files-card">
+          <!-- <button class="accordion">Draft Scope of Work v1</button>
           <div class="panel">
-            <p class="active">Halletts North_EAS_2021.02.10.pdf</p>
+            <p class="active" >Halletts North_EAS_2021.02.10.pdf</p>
             <p>Halletts North_Draft Scope of Work.pdf</p>
             <p>Halletts North_EAS_2021.02.10.pdf</p>
           </div>
@@ -68,49 +68,48 @@
           <div class="panel">
             <p>Halletts North_Draft Scope of Work.pdf</p>
             <p>Halletts North_EAS_2021.02.10.pdf</p>
-          </div>
+          </div> -->
+
         </div>
       </div>
     </div>
-    <iframe id="pdf-iframe" src='https://pdfjs-express.s3-us-west-2.amazonaws.com/docs/choosing-a-pdf-viewer.pdf'>
+    <!-- <object id="pdf-iframe"
+      data="https://zap-api-production.herokuapp.com/document/package/sites/nycdcppfs/dcp_package/2018Q0491_Filed%20LU%20Package_3_646269D745A6EC11B400001DD804FA1D/0.%20Comment%20Letter.pdf"
+      type="application/pdf"></object> -->
+
+    <iframe id="pdf-iframe"
+      src=""></iframe>
+
+    <!-- <iframe id="pdf-iframe" src='https://pdfjs-express.s3-us-west-2.amazonaws.com/docs/choosing-a-pdf-viewer.pdf'>
       <p>This browser does not support PDF!</p>
-    </iframe>
+    </iframe> -->
 
   </div>
   <div id="project-overview">
 
     <div id="main">
       <div id="project-name">
-        Halletts North
+        -
       </div>
       <div id="info">
         <div class="item">
           <div class="title">Brief</div>
-          <div class="content">A private application by Astoria Owners LLC to pursue a ZM from M1-1 to R7-3/C2-4, a ZR
-            to Appendix F to map an MIH area, a ZS pursuant to ZR 62-837(a) to waive height, setback, and tower
-            regulations, a ZA to modify the WPAA and allow for phased development of the open space, a ZC pursuant to ZR
-            62-81, and an amendment to the City Map to demap a portion of 3rd St to facilitate a 987,000sf mixed use
-            development with 1,400 units and 42,208sf of open space at 3-15 26th Ave in Astoria, CD 1, Queens.</div>
+          <div id="brief-content" class="content">-</div>
         </div>
         <div class="item">
           <div class="title">Timeline</div>
-          <div class="content">January 2022 - December 2023</div>
+          <div class="content">n.a</div>
         </div>
         <div class="item">
-          <div class="title">Action</div>
-          <div class="content">Zoning Map Amandement (ZM), Zoning Text Amendment (ZR), Zoning Special Permit (ZS),
-            Zoning Authorization (ZA), Zoning Certification (ZC)</div>
-        </div>
-        <div class="item">
-          <div class="title">CEQR</div>
-          <div class="content">21DCP138Q </div>
+          <div class="title">Action(s)</div>
+          <div id="action-content" class="content">-</div>
         </div>
         <div id="bbl">
           <div id="list">
             <div id="bbl-title">BBLs</div>
             <div id="bbl-list">
-              <div class="bbl-item active">4009110001</div>
-              <div class="bbl-item">4009110049</div>
+              <!-- <div class="bbl-item active">4009110001</div>
+              <div class="bbl-item">4009110049</div> -->
             </div>
           </div>
           <br>
@@ -178,20 +177,16 @@
       <div id="map"></div>
       <div id="card">
         <div class="card-item">
-          <div class="title">Project Name</div>
-          <div class="content">Hallets North</div>
-        </div>
-        <div class="card-item">
           <div class="title">Project ID</div>
-          <div class="content">2018Q0491</div>
+          <div id="id-content" class="content">-</div>
         </div>
         <div class="card-item">
           <div class="title">Applicants</div>
-          <div class="content">Astoria Owners LLC</div>
+          <div id="applicant-content" class="content">-</div>
         </div>
         <div class="card-item">
           <div class="title">Borough | Community District</div>
-          <div class="content">Queens | 5</div>
+          <div id="borough-content" class="content">-</div>
         </div>
         <div class="card-item">
           <div class="title">Addresses</div>
@@ -199,19 +194,19 @@
         </div>
         <div class="card-item">
           <div class="title">Zip Code</div>
-          <div class="content">11373</div>
+          <div class="content">-</div>
         </div>
         <div class="card-item">
           <div class="title">Status</div>
-          <div class="content">In public review</div>
+          <div id="status-content" class="content">-</div>
         </div>
         <div class="card-item">
           <div class="title">CEQR</div>
-          <div class="content">21DCP138Q</div>
+          <div id="ceqr-content" class="content">-</div>
         </div>
         <div class="card-item">
           <div class="title">FEMA Flood Zone</div>
-          <div class="content">Zone A Shaded X</div>
+          <div class="content">-</div>
         </div>
       </div>
       <div id="hearing-card">

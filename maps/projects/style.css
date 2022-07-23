@@ -101,6 +101,7 @@ a {
 }
 
 #project-overview>#sidebar {
+  max-width: 400px;
   min-width: 400px;
   padding: 20px;
 }
@@ -164,6 +165,10 @@ td {
 
 
 /* sidebar */
+#main {
+  flex-grow: 1;
+}
+
 #map {
   height: 300px;
   background-color: #5D0E8B;
