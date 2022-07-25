@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6/turf.min.js"></script>
   <link href="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css" rel="stylesheet">
   <script src="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js"></script>
 </head>
@@ -77,8 +78,7 @@
       data="https://zap-api-production.herokuapp.com/document/package/sites/nycdcppfs/dcp_package/2018Q0491_Filed%20LU%20Package_3_646269D745A6EC11B400001DD804FA1D/0.%20Comment%20Letter.pdf"
       type="application/pdf"></object> -->
 
-    <iframe id="pdf-iframe"
-      src=""></iframe>
+    <iframe id="pdf-iframe" src=""></iframe>
 
     <!-- <iframe id="pdf-iframe" src='https://pdfjs-express.s3-us-west-2.amazonaws.com/docs/choosing-a-pdf-viewer.pdf'>
       <p>This browser does not support PDF!</p>
@@ -115,34 +115,40 @@
           <br>
           <table>
             <tr>
+              <th>Address</th>
+              <td id="current-address">-</td>
+              <td></td>
+            </tr>
+            <tr>
               <th></th>
               <td>Current</td>
               <td>Proposed</td>
             </tr>
             <tr>
+            <tr>
               <th>Zoning code</th>
-              <td>M1-1</td>
-              <td>R7-3/C2-4</td>
+              <td id="current-zoningcode">-</td>
+              <td>-</td>
             </tr>
             <tr>
               <th>Land use</th>
-              <td>Industrial and Manufacturing</td>
-              <td>Industrial and Manufacturing</td>
+              <td id="current-landuse">-</td>
+              <td>-</td>
             </tr>
             <tr>
               <th>Lot area</th>
-              <td>139,128 sq ft</td>
-              <td>139,128 sq ft</td>
+              <td id="current-lotarea">-</td>
+              <td>-</td>
             </tr>
             <tr>
               <th>Building area</th>
-              <td>139,128 sq ft</td>
-              <td>139,128 sq ft</td>
+              <td id="current-buildingarea">-</td>
+              <td>-</td>
             </tr>
             <tr>
               <th>Block</th>
-              <td>139,128 sq ft</td>
-              <td>139,128 sq ft</td>
+              <td id="current-block">-</td>
+              <td>-</td>
             </tr>
             <tr>
               <th>Floor Area Ratio</th>
@@ -151,22 +157,22 @@
             </tr>
             <tr>
               <th>&emsp; Built</th>
-              <td>1</td>
+              <td id="current-builtFAR">-</td>
               <td></td>
             </tr>
             <tr>
               <th>&emsp; Commercial</th>
-              <td>1</td>
+              <td id="current-commFAR">-</td>
               <td></td>
             </tr>
             <tr>
               <th>&emsp; Facility</th>
-              <td>1</td>
+              <td id="current-facFAR">-</td>
               <td></td>
             </tr>
             <tr>
               <th>&emsp; Residential</th>
-              <td>1</td>
+              <td id="current-resFAR">-</td>
               <td></td>
             </tr>
           </table>
@@ -187,10 +193,6 @@
         <div class="card-item">
           <div class="title">Borough | Community District</div>
           <div id="borough-content" class="content">-</div>
-        </div>
-        <div class="card-item">
-          <div class="title">Addresses</div>
-          <div class="content">n.a</div>
         </div>
         <div class="card-item">
           <div class="title">Zip Code</div>

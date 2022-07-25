@@ -44,12 +44,12 @@ nav > .active {
 #content {
   display: flex;
   width: 100%;
-  height: 100vh;
+  height: calc(100vh - 99px);
 }
 
 #map {
   width: 100%;
-  height: 100vh;
+  height: calc(100vh - 99px);
 }
 
 #sidebar {
@@ -85,7 +85,7 @@ input {
 
 #right_sidebar {
   min-width: 360px;
-  height: 100vh;
+  height: calc(100vh - 99px);
   background-color: #fff;
 }
 

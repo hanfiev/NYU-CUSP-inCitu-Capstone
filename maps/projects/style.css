@@ -7,6 +7,13 @@ body {
   background-color: #F4F6F9;
 }
 
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
 #header-link {
   text-align: center;
   font-size: 10pt;
@@ -54,8 +61,13 @@ a.item:hover {
 }
 
 .submenu {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  top: 99px;
   border-bottom: 1px solid #F1F1F1;
   background-color: #ffffffa9;
+  backdrop-filter: blur(18px);
 }
 
 #project-nav {
@@ -88,7 +100,7 @@ a {
 #project-overview {
   display: flex;
   width: 1200px;
-  margin: 20px auto;
+  margin: 140px auto;
   gap: 50px;
   font-size: 11pt;
 }
@@ -166,6 +178,7 @@ td {
 
 /* sidebar */
 #main {
+  max-width: 800px;
   flex-grow: 1;
 }
 
@@ -213,6 +226,7 @@ td {
 }
 
 #documents-page {
+  margin-top: 140px;
   display: flex;
 }
 
