@@ -235,6 +235,7 @@ function updateBBLdata(evt) {
   let attributes = bblSelected[0].data.features[0].attributes
 
   document.getElementById("current-address").innerHTML = attributes.Address
+  document.getElementById("current-zipcode").innerHTML = attributes.ZipCode
   document.getElementById("current-zoningcode").innerHTML = attributes.ZoneDist1
   document.getElementById("current-landuse").innerHTML = attributes.LandUse
   document.getElementById("current-lotarea").innerHTML = attributes.LotArea
@@ -271,6 +272,10 @@ async function fillValue() {
   document.getElementById('applicant-content').innerHTML = zapData.data.attributes['dcp-applicant-customer-value']
   document.getElementById('borough-content').innerHTML = zapData.data.attributes['dcp-borough'] + " | " + zapData.data.attributes['dcp-validatedcommunitydistricts']
   document.getElementById('status-content').innerHTML = zapData.data.attributes['dcp-publicstatus']
+
+  zapURL = "https://zap.planning.nyc.gov/projects/" + zapData.data['id']
+  document.getElementById("zaplinka").setAttribute("href",zapURL)
+  document.getElementById("zaplinka").setAttribute("target","_blank")
 
 
   await generateBBL()

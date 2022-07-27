@@ -24,7 +24,7 @@
     <div id="menu">
       <div id="logo"><img src="img/logo.png" height="35px"></div>
       <nav>
-        <a class="item active" href="/maps/">City Projects</a>
+        <a class="item active" href="/">City Projects</a>
         <a class="item" href="#">Hearing Agenda</a>
         <a class="item" href="#">User Guide</a>
         <a class="item" href="#">About</a>
@@ -120,6 +120,11 @@
               <td></td>
             </tr>
             <tr>
+              <th>ZIP Code</th>
+              <td id="current-zipcode">-</td>
+              <td></td>
+            </tr>
+            <tr>
               <th></th>
               <td>Current</td>
               <td>Proposed</td>
@@ -181,6 +186,7 @@
     </div>
     <div id="sidebar">
       <div id="map"></div>
+      <a id="zaplinka" href="#"><div id="zaplink">View project on NYC ZAP</div></a>
       <div id="card">
         <div class="card-item">
           <div class="title">Project ID</div>
@@ -193,10 +199,6 @@
         <div class="card-item">
           <div class="title">Borough | Community District</div>
           <div id="borough-content" class="content">-</div>
-        </div>
-        <div class="card-item">
-          <div class="title">Zip Code</div>
-          <div class="content">-</div>
         </div>
         <div class="card-item">
           <div class="title">Status</div>
