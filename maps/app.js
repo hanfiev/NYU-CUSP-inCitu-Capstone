@@ -34,7 +34,8 @@ function retrieveData(data) {
 
     let borough = document.createElement('div')
     borough.classList.add('borough')
-    borough.appendChild(document.createTextNode('Manhattan | 1')) //borough
+    boroughData = ZAPdata[i]['dcp-borough']
+    borough.appendChild(document.createTextNode(boroughData)) //borough
 
     let projectName = document.createElement('div')
     projectName.classList.add('projectName')
@@ -42,7 +43,8 @@ function retrieveData(data) {
 
     let projectType = document.createElement('div')
     projectType.classList.add('projectType')
-    projectType.appendChild(document.createTextNode('ZONING APPLICATION | ULURP'))
+    projectStatus = ZAPdata[i]['dcp-publicstatus'].toUpperCase()
+    projectType.appendChild(document.createTextNode('ZAP | ' + projectStatus))
 
     let content = document.createElement('div')
     content.classList.add('content')
@@ -65,7 +67,13 @@ function retrieveData(data) {
 
     card.appendChild(section)
 
-    document.getElementById('projectsList').append(card)
+    let a = document.createElement('a')
+    let url = "projects/index.html?id=" + ZAPdata[i].id
+    a.setAttribute("href", url)
+
+    a.appendChild(card)
+
+    document.getElementById('projectsList').append(a)
   }
 
   map.addSource('projects', {
@@ -115,7 +123,7 @@ function updateBar() {
 }
 
 map.on('load', () => {
-  fetch('data.json')
+  fetch('https://raw.githubusercontent.com/ZephyrCW/cusp-capstone/main/zap_projects_data.json')
     .then(response => response.json())
     .then(data => retrieveData(data));
 
