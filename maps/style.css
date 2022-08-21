@@ -230,3 +230,8 @@ input {
   margin: 5px 0px;
 }
 
+#guide{
+  margin-top: 120px;
+  width: 100%;
+  text-align: center;
+}
