@@ -25,6 +25,14 @@ nav>a {
   cursor: pointer;
 }
 
+a.item {
+  transition: 0.2s ease-out;
+}
+
+a.item:hover {
+  color: #5D0E8B;
+}
+
 #menu {
   display: flex;
   justify-content: space-between;
@@ -39,6 +47,7 @@ nav>a {
 
 nav > .active {
   color: #5D0E8B;
+  transition: 0.2s ease-out;
 }
 
 #content {
