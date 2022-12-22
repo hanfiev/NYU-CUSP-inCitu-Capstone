@@ -154,7 +154,7 @@ function generateBBLLink() {
 }
 
 // var zapAPI = 'https://incitu-hv.herokuapp.com/public/hv/projects/'
-var zapAPI = 'https://zap-api.hanfiev.com/'
+var zapAPI = 'https://express-proxy-api-128z.vercel.app/'
 zapData = {}
 attachments = {}
 
